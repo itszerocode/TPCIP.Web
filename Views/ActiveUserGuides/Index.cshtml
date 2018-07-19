@@ -1,0 +1,59 @@
+﻿@model List<TPCIP.Web.Models.Domain.GuideSessionHistory>
+<div id="ActiveUserGuidesWP" runat="server"
+     class="webpart ActiveUserGuidesWP" data-wpzone="#cip_body .contentParkedSessions">
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <span class="ion-ios7-albums-outline"></span>
+            <small>Mine aktive sessioner</small>
+        </div>
+
+        <div class="padding-5 parked-text panel-content">
+
+            <table class="table table-striped table-hover table-hover-pointer table-datatable">
+                <thead>
+                    <tr>
+                        <th>@Translations.Date </th>
+                        <th>@Translations.Customer </th>
+                        <th>@Translations.Area </th>
+                        <th>@Translations.Guides </th>
+                        <th></th>
+
+                        @*<th>@Translations </th>
+        <th><%= TPCIP.CommonTranslations.Translations. %></th>
+        <th>LID</th>
+        <th><%= TPCIP.CommonTranslations.Translations.Area %></th>
+        <th><%= TPCIP.CommonTranslations.Translations.Guides %></th>
+        <th></th>
+        <%--
+        <th><%= TPCIP.Web.GlobalResources.Translations.Current_Step %></th>--%>*@
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var note in Model)
+                    {
+                    <tr>
+                        <td>@note.Date</td>
+                        <td>@note.CustomerName</td>
+                        <td>@note.CustomerId</td>
+                        <td>@note.Section</td>
+                        <td>@note.EntityTitle</td>
+                        <td></td>
+                        @*<td><%# Eval("") %></td>
+        <td><%# Eval("CustomerId") %></td>
+        <td><%# Eval("") %></td>
+        <td><%# Eval("EntityTitle") %></td>
+        <td><i class='<%# Convert.ToBoolean(Eval("IsResumable")) == false ? "ion-alert" : ""  %>' style='color:red;'></i> </td>
+        <%--
+        <td><%# Eval("StepName") %></td>--%>*@
+                    </tr>
+                     }
+                </tbody>
+            </table>
+        </div>
+
+        @*<uc1:Paginator ID="paginator" runat="server" OnClientPageClick="TdcActiveUserGuides.paginatorClicked" />
+            <asp:Label ID="lblNoSessions" runat="server" Visible="False"><%= TPCIP.CommonTranslations.Translations.There_are_no_sessions  %></asp:Label>*@
+    </div><!--end of parked cases table -->
+</div>
+

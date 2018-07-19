@@ -1,0 +1,92 @@
+﻿div.TDCTreeView.tdc-tree i.badge {
+    color: #eee;
+    background-color: #555;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+.tdc-tree {
+    min-height: 20px;
+    max-height: 415px;
+    margin-bottom: 20px;
+    background-color: #fbfbfb;
+    font-size: 12px;
+    border: 1px solid #999;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+.tdc-tree li {
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px 5px 0;
+    position: relative;
+}
+
+.tdc-tree li::after,
+.tdc-tree li::before {
+    content: '';
+    left: -11px;
+    position: absolute;
+    right: auto;
+}
+
+.tdc-tree li::before {
+    border-left: 1px solid #999;
+    bottom: 50px;
+    height: 100%;
+    top: 0;
+    width: 1px;
+}
+
+.tdc-tree li::after {
+    border-top: 1px solid #999;
+    height: 20px;
+    top: 25px;
+    width: 18px;
+}
+
+.tdc-tree li span>h7 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.tdc-tree li span {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 3px 8px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.tdc-tree li.parent_li>span {
+    cursor: pointer;
+}
+
+.tdc-tree>ul>li::after,
+.tdc-tree>ul>li::before {
+    border: 0;
+}
+
+.tdc-tree li:last-child::before {
+    height: 30px;
+}
+
+.tdc-tree li.parent_li>span:hover,
+.tdc-tree li.parent_li>span:hover+ul li span {
+    background: #eee;
+    border: 1px solid #94a0b4;
+    color: #000;
+}
+
+.tdc-tree ul {
+    padding-left: 20px;
+}

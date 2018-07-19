@@ -1,0 +1,126 @@
+﻿.divNone {
+    display: none;
+}
+
+.divBlock {
+    display: block;
+}
+
+.divInlineBlock {
+    display: inline-block;
+}
+
+.divAbs {
+    position: absolute;
+}
+
+.divRelative {
+    position: relative;
+}
+
+.divVisible {
+    overflow:  visible;
+}
+
+.divHidden {
+    overflow:  hidden;
+}
+
+.divScroll {
+    overflow:  scroll;
+}
+
+.divAuto {
+    overflow: auto;
+}
+
+.divAuto-y{
+    overflow-y: auto;
+}
+
+.divHidden-y {
+    overflow-y: hidden;
+}
+
+.divInitial-y {
+    overflow-y: initial;
+}
+
+.divAuto-x{
+    overflow-x: auto;
+}
+
+.divVisible-x{
+    overflow-x: visible;
+}
+
+.divHidden-x {
+    overflow-x: hidden;
+}
+
+.divInitial-x {
+    overflow-x: initial;
+}
+
+.wordBreakKeepAll {
+    word-break: keep-all;
+}
+
+.wordBreakAll {
+    word-break: break-all;
+}
+
+.wordBreak {
+    word-break: break-word;
+}
+
+.wordWrap {
+    word-wrap: break-word;
+}
+
+.whiteSpace {
+    white-space:pre-wrap;
+}
+
+
+.whiteSpace {
+    white-space:pre-wrap;
+}
+
+.wSpaceNormal{
+white-space: normal;
+
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.noBorder {
+    border: none !important;
+}
+
+/*main.css*/
+.cursorPointer {
+    cursor: pointer;
+}
+
+.cursor-pointer {
+    cursor: pointer !important;
+}
+
+.tTrans-capitalize {
+    text-transform: capitalize;
+}
+
+.alignCenter{
+align-content: center;
+}
+
+.textDNone{
+    text-decoration: none
+}

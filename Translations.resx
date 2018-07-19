@@ -1,0 +1,3451 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Aa" xml:space="preserve">
+    <value>A/a</value>
+  </data>
+  <data name="Abort_guide" xml:space="preserve">
+    <value>Afbryd</value>
+  </data>
+  <data name="Abort_guide_tooltip" xml:space="preserve">
+    <value>Afbryd igangværende guide uden at gemme</value>
+  </data>
+  <data name="Accept" xml:space="preserve">
+    <value>Accepter</value>
+  </data>
+  <data name="Access_Profile" xml:space="preserve">
+    <value>Access Profil</value>
+  </data>
+  <data name="Account" xml:space="preserve">
+    <value>Konto</value>
+  </data>
+  <data name="AccountNo" xml:space="preserve">
+    <value>Kontonummer</value>
+  </data>
+  <data name="AccountNr" xml:space="preserve">
+    <value>KontoNr.</value>
+  </data>
+  <data name="Action" xml:space="preserve">
+    <value>Aktion</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Aktiv</value>
+  </data>
+  <data name="ActiveMobileTelephone" xml:space="preserve">
+    <value>Aktiv mobiltelefon</value>
+  </data>
+  <data name="ActiveSafetyPackage" xml:space="preserve">
+    <value>Aktiv Sikkerhedspakke</value>
+  </data>
+  <data name="ActiveVVMActivationStatus" xml:space="preserve">
+    <value>Aktiv</value>
+  </data>
+  <data name="Activity" xml:space="preserve">
+    <value>Aktivitet</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Tilføj</value>
+  </data>
+  <data name="AddedSubUserToUserProfile" xml:space="preserve">
+    <value>Underbruger blev tilføjet</value>
+  </data>
+  <data name="AddFile" xml:space="preserve">
+    <value>Tilføj fil</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Adresse</value>
+  </data>
+  <data name="Add_new_rule" xml:space="preserve">
+    <value>Tilføj ny regel</value>
+  </data>
+  <data name="Add_number" xml:space="preserve">
+    <value>Tilføj nummer</value>
+  </data>
+  <data name="Administer_router_firewall" xml:space="preserve">
+    <value>Administrer router/firewall</value>
+  </data>
+  <data name="Administration_of_voicemail" xml:space="preserve">
+    <value>Administration af voicemail</value>
+  </data>
+  <data name="AdminState" xml:space="preserve">
+    <value>Admin State</value>
+  </data>
+  <data name="AdminStateLocked" xml:space="preserve">
+    <value>Fsea</value>
+  </data>
+  <data name="AdminStateUnlocked" xml:space="preserve">
+    <value>linjen er åben</value>
+  </data>
+  <data name="Admin_state" xml:space="preserve">
+    <value>Admin state</value>
+  </data>
+  <data name="Afregen" xml:space="preserve">
+    <value>Afregn.</value>
+  </data>
+  <data name="AK" xml:space="preserve">
+    <value>AK</value>
+  </data>
+  <data name="Aktivation" xml:space="preserve">
+    <value>Aktivation</value>
+  </data>
+  <data name="Aktiver" xml:space="preserve">
+    <value>Aktiver</value>
+  </data>
+  <data name="Album" xml:space="preserve">
+    <value>Album</value>
+  </data>
+  <data name="Alias" xml:space="preserve">
+    <value>Alias</value>
+  </data>
+  <data name="Alias_should_be_minimum_6_characters_in_length" xml:space="preserve">
+    <value>Alias ​​skal være minimum 6 tegn i længden</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="Allow_single_computer_on_local_network" xml:space="preserve">
+    <value>Tillad en enkelt computer på lokalnettet</value>
+  </data>
+  <data name="Allow_these_MAC_addresses" xml:space="preserve">
+    <value>Tillad disse MAC adresser</value>
+  </data>
+  <data name="All_Packages" xml:space="preserve">
+    <value>Alle Kanaler</value>
+  </data>
+  <data name="All_ring" xml:space="preserve">
+    <value>Alle ring</value>
+  </data>
+  <data name="Already_exists" xml:space="preserve">
+    <value>findes i forvejen</value>
+  </data>
+  <data name="AlternativeAddress" xml:space="preserve">
+    <value>Alternativ adresse</value>
+  </data>
+  <data name="Amount" xml:space="preserve">
+    <value>Beløb</value>
+  </data>
+  <data name="Anlægsaftale_AA" xml:space="preserve">
+    <value>AA</value>
+  </data>
+  <data name="Anlægsaftale_activity" xml:space="preserve">
+    <value>Aktivitet</value>
+  </data>
+  <data name="Anlægsaftale_Analog_indmåling" xml:space="preserve">
+    <value>Analog indmåling</value>
+  </data>
+  <data name="Anlægsaftale_Ansv_omr" xml:space="preserve">
+    <value>Ansv.omr</value>
+  </data>
+  <data name="Anlægsaftale_Asphalt" xml:space="preserve">
+    <value>Asfalt</value>
+  </data>
+  <data name="Anlægsaftale_Castro_project_no" xml:space="preserve">
+    <value>Castro projekt nr.</value>
+  </data>
+  <data name="Anlægsaftale_Digital_indmåling" xml:space="preserve">
+    <value>Digital indmåling</value>
+  </data>
+  <data name="Anlægsaftale_Geography_code" xml:space="preserve">
+    <value>Geografi kode</value>
+  </data>
+  <data name="Anlægsaftale_Graveadr1" xml:space="preserve">
+    <value>Splidsehul nr. 1 på adressen (Graveadr.</value>
+  </data>
+  <data name="Anlægsaftale_Graveadr2" xml:space="preserve">
+    <value>Splidsehul nr. 2 på adressen (Graveadr.</value>
+  </data>
+  <data name="Anlægsaftale_Graveadr3" xml:space="preserve">
+    <value>Splidsehul nr. 3 på adressen (Graveadr.</value>
+  </data>
+  <data name="Anlægsaftale_hourly_Survey" xml:space="preserve">
+    <value>Splidsehuller gravet på opmåling eller timeløn - vælg antal</value>
+  </data>
+  <data name="Anlægsaftale_In_public_roads" xml:space="preserve">
+    <value>I offentlig vej</value>
+  </data>
+  <data name="Anlægsaftale_Isolate_everyday" xml:space="preserve">
+    <value>Afspær hverdag</value>
+  </data>
+  <data name="Anlægsaftale_Isolate_the_weekend" xml:space="preserve">
+    <value>Afspær weekend</value>
+  </data>
+  <data name="Anlægsaftale_lbm_asphalt_concrete" xml:space="preserve">
+    <value>lbm. asfalt/beton </value>
+  </data>
+  <data name="Anlægsaftale_lbm_fliser_cobbles" xml:space="preserve">
+    <value> lb.m. fliser/brosten</value>
+  </data>
+  <data name="Anlægsaftale_New_excavation" xml:space="preserve">
+    <value>Ny opgravning</value>
+  </data>
+  <data name="Anlægsaftale_No_digging_Time_Performance" xml:space="preserve">
+    <value>Ingen gravning - Timeydelse</value>
+  </data>
+  <data name="Anlægsaftale_Number_of_hours" xml:space="preserve">
+    <value>Antal timer</value>
+  </data>
+  <data name="Anlægsaftale_On_private_land" xml:space="preserve">
+    <value>På privat grund</value>
+  </data>
+  <data name="Anlægsaftale_Other" xml:space="preserve">
+    <value>Andet:</value>
+  </data>
+  <data name="Anlægsaftale_Project_no" xml:space="preserve">
+    <value>Projekt nr.</value>
+  </data>
+  <data name="Anlægsaftale_Retab_concrete" xml:space="preserve">
+    <value>Retab. beton</value>
+  </data>
+  <data name="Anlægsaftale_Retab_jointed_coatin" xml:space="preserve">
+    <value>Retab. fuget belægn.</value>
+  </data>
+  <data name="Anlægsaftale_running_meter_lawn_plain_land" xml:space="preserve">
+    <value> lb.m. plæne/alm. jord   </value>
+  </data>
+  <data name="Anlægsaftale_running_meter_loose_surface" xml:space="preserve">
+    <value>lb.m. løs belægning</value>
+  </data>
+  <data name="Anlægsaftale_Splids_fortified" xml:space="preserve">
+    <value>Splids. befæstet</value>
+  </data>
+  <data name="Anlægsaftale_Splids_unfortified" xml:space="preserve">
+    <value>Splids. ubefæstet</value>
+  </data>
+  <data name="Anlægsaftale_The_state_road" xml:space="preserve">
+    <value>I statsvej</value>
+  </data>
+  <data name="Anlægsaftale_United_cart" xml:space="preserve">
+    <value>Stor vogn</value>
+  </data>
+  <data name="Anlægsaftale_Winter" xml:space="preserve">
+    <value>Vinter</value>
+  </data>
+  <data name="Anlægsaftale_Work_on_existing_excavation" xml:space="preserve">
+    <value>Arbejde på eksisterende opgravning</value>
+  </data>
+  <data name="Anlægsaftale_Work_performed_at_hourly" xml:space="preserve">
+    <value>Arbejde udført på timeløn .</value>
+  </data>
+  <data name="Anlægsaftale_Work_performed_on_surveying" xml:space="preserve">
+    <value>Arbejde udført på opmåling</value>
+  </data>
+  <data name="Answer" xml:space="preserve">
+    <value>Svar</value>
+  </data>
+  <data name="AO" xml:space="preserve">
+    <value>AO-nr</value>
+  </data>
+  <data name="APLBUK" xml:space="preserve">
+    <value>APL/BUK</value>
+  </data>
+  <data name="AppointmentType" xml:space="preserve">
+    <value>Aftaletype</value>
+  </data>
+  <data name="appointment_List" xml:space="preserve">
+    <value>Aftaleseddel</value>
+  </data>
+  <data name="Area" xml:space="preserve">
+    <value>Område</value>
+  </data>
+  <data name="Arming_the_system" xml:space="preserve">
+    <value>Tilkobling af anlæg</value>
+  </data>
+  <data name="Articles" xml:space="preserve">
+    <value>Artikler</value>
+  </data>
+  <data name="Artist" xml:space="preserve">
+    <value>Kunstner</value>
+  </data>
+  <data name="ArtsAttraction" xml:space="preserve">
+    <value>Artstype</value>
+  </data>
+  <data name="Asphalt" xml:space="preserve">
+    <value>Asfalt</value>
+  </data>
+  <data name="AssignedEmailAddresses" xml:space="preserve">
+    <value>Emailadresser tilknyttet</value>
+  </data>
+  <data name="Attachfiles" xml:space="preserve">
+    <value>vedhæft filer</value>
+  </data>
+  <data name="attempted" xml:space="preserve">
+    <value>forsØgt udfØrt</value>
+  </data>
+  <data name="Attempted_Date_Not_set_yet" xml:space="preserve">
+    <value>Forsøgt udført dato:Ikke sat endnu</value>
+  </data>
+  <data name="AutoCardPayment" xml:space="preserve">
+    <value>Kortbetaling</value>
+  </data>
+  <data name="AutomaticFeedback" xml:space="preserve">
+    <value>Automatisk tilbagemelding</value>
+  </data>
+  <data name="Away" xml:space="preserve">
+    <value>Udenfor hjemmet</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Tilbage</value>
+  </data>
+  <data name="backoffice" xml:space="preserve">
+    <value>backoffice</value>
+  </data>
+  <data name="Bad_request" xml:space="preserve">
+    <value>Dårlig anmodning</value>
+  </data>
+  <data name="Barrings" xml:space="preserve">
+    <value>Spærringer</value>
+  </data>
+  <data name="Bier_production_sid" xml:space="preserve">
+    <value>Bier_produktion_sid</value>
+  </data>
+  <data name="Bill" xml:space="preserve">
+    <value>Regning</value>
+  </data>
+  <data name="booked_time" xml:space="preserve">
+    <value>booket tid</value>
+  </data>
+  <data name="BookingType" xml:space="preserve">
+    <value>Aftaletype</value>
+  </data>
+  <data name="BookNewDate" xml:space="preserve">
+    <value>Book en ny tid</value>
+  </data>
+  <data name="Book_time" xml:space="preserve">
+    <value>Book tid</value>
+  </data>
+  <data name="Boxtype" xml:space="preserve">
+    <value>Boxtype</value>
+  </data>
+  <data name="Broadband" xml:space="preserve">
+    <value>Bredbånd</value>
+  </data>
+  <data name="Broadcast_network_name" xml:space="preserve">
+    <value>Udsend netværksnavn</value>
+  </data>
+  <data name="BuildNumber" xml:space="preserve">
+    <value>Hus nr.</value>
+  </data>
+  <data name="Burial_of_kveji" xml:space="preserve">
+    <value>Nedgravning af kvejl på privat grund</value>
+  </data>
+  <data name="BusinessCoreErrorFasoNotReady" xml:space="preserve">
+    <value>Resultatet er ikke klar. Prøv igen senere.</value>
+  </data>
+  <data name="BusinessCoreErrorInBier" xml:space="preserve">
+    <value>Business Core Fejl i Bier Service - </value>
+  </data>
+  <data name="BusinessCoreErrorInEtray" xml:space="preserve">
+    <value>Business Core Fejl i eTray service</value>
+  </data>
+  <data name="BusinessCoreErrorInFaso" xml:space="preserve">
+    <value>Business Core Fejl i Faso service</value>
+  </data>
+  <data name="Business_Core_Error" xml:space="preserve">
+    <value>Business Core Fejl</value>
+  </data>
+  <data name="Business_Core_Error_Missing_Data" xml:space="preserve">
+    <value>Business Core Fejl: Manglende data</value>
+  </data>
+  <data name="Business_Core_Error_NotResponding" xml:space="preserve">
+    <value>Business Core Fejl: Svarer ikke</value>
+  </data>
+  <data name="Busy" xml:space="preserve">
+    <value>Optaget</value>
+  </data>
+  <data name="By" xml:space="preserve">
+    <value>Via</value>
+  </data>
+  <data name="Cable" xml:space="preserve">
+    <value>Kabel</value>
+  </data>
+  <data name="CableType" xml:space="preserve">
+    <value>Kabeltype</value>
+  </data>
+  <data name="Cable_Type" xml:space="preserve">
+    <value>Kabeltype der skiftes fra</value>
+  </data>
+  <data name="Calculated" xml:space="preserve">
+    <value>Udregnet</value>
+  </data>
+  <data name="CallForwards_customer_provisioned_incorrectly" xml:space="preserve">
+    <value>Kunden er provisioneret forkert</value>
+  </data>
+  <data name="Call_Forwards" xml:space="preserve">
+    <value>Viderestillinger (Mobil og BBT)</value>
+  </data>
+  <data name="Call_Fwd_BTS_PopUpHelptext" xml:space="preserve">
+    <value>Du er ved at deaktivere kundens viderestillinger. Ønsker du at fortsætte?</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Annuller</value>
+  </data>
+  <data name="Cancel_record" xml:space="preserve">
+    <value>Afmeld fejl</value>
+  </data>
+  <data name="CannotSaveEmptyNote" xml:space="preserve">
+    <value>Kan ikke gemme tom note</value>
+  </data>
+  <data name="Cannot_be_empty" xml:space="preserve">
+    <value>kan ikke være tom</value>
+  </data>
+  <data name="Casper_activity_No" xml:space="preserve">
+    <value>Casper aktivitets nr</value>
+  </data>
+  <data name="Castro" xml:space="preserve">
+    <value>Castro-ID</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Category_" xml:space="preserve">
+    <value>Kategori</value>
+  </data>
+  <data name="Cause" xml:space="preserve">
+    <value>Fejlårsag</value>
+  </data>
+  <data name="Central" xml:space="preserve">
+    <value>Central</value>
+  </data>
+  <data name="CentralAbbreviation" xml:space="preserve">
+    <value>Centralforkortelse</value>
+  </data>
+  <data name="Centralfork" xml:space="preserve">
+    <value>Centralfork</value>
+  </data>
+  <data name="Centralname" xml:space="preserve">
+    <value>Central navn</value>
+  </data>
+  <data name="Chain_ring" xml:space="preserve">
+    <value>Kædering</value>
+  </data>
+  <data name="ChangeFrom" xml:space="preserve">
+    <value>Udskift fra</value>
+  </data>
+  <data name="Change_MAC_Address" xml:space="preserve">
+    <value>Ændr MAC adresse</value>
+  </data>
+  <data name="Change_Mac_Address_Failed" xml:space="preserve">
+    <value>Skift Mac Address mislykkedes</value>
+  </data>
+  <data name="Change_record" xml:space="preserve">
+    <value>Skift optager</value>
+  </data>
+  <data name="Change_recorder" xml:space="preserve">
+    <value>Skift optager</value>
+  </data>
+  <data name="Channel" xml:space="preserve">
+    <value>Kanal</value>
+  </data>
+  <data name="Choose_interval" xml:space="preserve">
+    <value>Vælg interval</value>
+  </data>
+  <data name="choose_number" xml:space="preserve">
+    <value>Vælg nummer</value>
+  </data>
+  <data name="Choose_types" xml:space="preserve">
+    <value>Vælg en af ovenstående typer for at fortsætte</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>By</value>
+  </data>
+  <data name="City_name" xml:space="preserve">
+    <value>Bynavn</value>
+  </data>
+  <data name="ClickOnSearchButton" xml:space="preserve">
+    <value>Klik på søg knappen, når du har valgt central i ét af de nedenstående felter.</value>
+  </data>
+  <data name="Click_to_clear_test_speed" xml:space="preserve">
+    <value>Klik for at fjerne testhastighed</value>
+  </data>
+  <data name="Click_to_set_test_speed" xml:space="preserve">
+    <value>Klik for at sætte testhastighed</value>
+  </data>
+  <data name="Clone_this_error" xml:space="preserve">
+    <value>Klon denne fejl</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Luk</value>
+  </data>
+  <data name="closed" xml:space="preserve">
+    <value>Lukket</value>
+  </data>
+  <data name="ClosedCases_NoCasesMessage" xml:space="preserve">
+    <value>Der er ingen afsluttede sager for denne kunde</value>
+  </data>
+  <data name="CloseFSecureSubscription" xml:space="preserve">
+    <value>Luk F-Secure abonnement</value>
+  </data>
+  <data name="CloseSubscription" xml:space="preserve">
+    <value>Luk abonnement</value>
+  </data>
+  <data name="Close_tab_tooltip" xml:space="preserve">
+    <value>Lukker den aktuelle fane</value>
+  </data>
+  <data name="CoaxHapThroughCoaxAllowed" xml:space="preserve">
+    <value>youSee Bredbånd tilladt</value>
+  </data>
+  <data name="CoaxHasTVinstalled" xml:space="preserve">
+    <value>Åbent youSee kabelTV</value>
+  </data>
+  <data name="ColumbusOrderPopUpMessage" xml:space="preserve">
+    <value>Brug venligst eOrdre for mere information</value>
+  </data>
+  <data name="ComletedGuides_NoGuidesMessage" xml:space="preserve">
+    <value>Der er ingen historik på denne kunde</value>
+  </data>
+  <data name="Comment" xml:space="preserve">
+    <value>Bemærkninger</value>
+  </data>
+  <data name="comments" xml:space="preserve">
+    <value>Bemærkninger</value>
+  </data>
+  <data name="Completed_date_Not_set_yet" xml:space="preserve">
+    <value>Afsluttet dato:Ikke sat endnu</value>
+  </data>
+  <data name="Complete_guide" xml:space="preserve">
+    <value>Afslut &amp;amp; Luk</value>
+  </data>
+  <data name="Complete_guide_tooltip" xml:space="preserve">
+    <value>Gem og afslut igangværende guide</value>
+  </data>
+  <data name="Configuration" xml:space="preserve">
+    <value>konfiguration</value>
+  </data>
+  <data name="Connected_devices" xml:space="preserve">
+    <value>tilsluttede enheder</value>
+  </data>
+  <data name="Construction" xml:space="preserve">
+    <value>Entreprenør</value>
+  </data>
+  <data name="Construction_date_Not_set_yet" xml:space="preserve">
+    <value>Entreprenør dato:Ikke sat endnu</value>
+  </data>
+  <data name="Consumption" xml:space="preserve">
+    <value>Forbrug</value>
+  </data>
+  <data name="ConsumptionLimitForCurrentMonth" xml:space="preserve">
+    <value>Månedligt forbrug indtil nu:</value>
+  </data>
+  <data name="contact" xml:space="preserve">
+    <value>kontaktperson</value>
+  </data>
+  <data name="contact_form" xml:space="preserve">
+    <value>henvendelsesform</value>
+  </data>
+  <data name="Contact_number" xml:space="preserve">
+    <value>Mobil kontaktnummer</value>
+  </data>
+  <data name="contact_phone" xml:space="preserve">
+    <value>Kontakt telefon</value>
+  </data>
+  <data name="contact_the_customer_prior_to_visit" xml:space="preserve">
+    <value>kontakt kunden inden besøg</value>
+  </data>
+  <data name="ContextId" xml:space="preserve">
+    <value>Kontekst Id</value>
+  </data>
+  <data name="Continue" xml:space="preserve">
+    <value>Fortsæt</value>
+  </data>
+  <data name="ContractNote" xml:space="preserve">
+    <value>Aftaleseddel - Privat grund</value>
+  </data>
+  <data name="ContractNote1" xml:space="preserve">
+    <value>Anvendes ved nedgravning af  "Kvejl på privat grund", samt ved "Omgravning efter kabelfejl på privat grund"</value>
+  </data>
+  <data name="ContractNote2" xml:space="preserve">
+    <value>Stikkabel udlagt på jord, termineret/splidset i begge ender!</value>
+  </data>
+  <data name="Contractor_Not_set_yet" xml:space="preserve">
+    <value>Entreprenør:Ikke sat endnu</value>
+  </data>
+  <data name="Copy_old_connection_path" xml:space="preserve">
+    <value>Kopiér gammel ledningsvej</value>
+  </data>
+  <data name="CPRValidation" xml:space="preserve">
+    <value>CPR opslag</value>
+  </data>
+  <data name="CPR_number" xml:space="preserve">
+    <value>lØnnummer:</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>Skaber</value>
+  </data>
+  <data name="Created" xml:space="preserve">
+    <value>Oprettet</value>
+  </data>
+  <data name="CreatedBy" xml:space="preserve">
+    <value>Oprettet Af</value>
+  </data>
+  <data name="CreatedDateTime" xml:space="preserve">
+    <value>Oprettelsesdato</value>
+  </data>
+  <data name="CreateFasoFailed" xml:space="preserve">
+    <value>Det var ikke muligt at oprette fejlordren, kontakt venligst 3rd line pr. e-mail med alle relevante informationer</value>
+  </data>
+  <data name="create_date" xml:space="preserve">
+    <value>opretdato</value>
+  </data>
+  <data name="Credits" xml:space="preserve">
+    <value>Kreditter</value>
+  </data>
+  <data name="CrossConnectionComments" xml:space="preserve">
+    <value>X-tråd  bemærkning</value>
+  </data>
+  <data name="CrossConnectionComments_from_theCustomerSide" xml:space="preserve">
+    <value>Krydskobling kundebemærkninger</value>
+  </data>
+  <data name="Cross_connectionComments" xml:space="preserve">
+    <value>X-tråd  bemærkning</value>
+  </data>
+  <data name="Cross_connectionComments_from_NewPosition" xml:space="preserve">
+    <value>Bemærkninger  til  ny position</value>
+  </data>
+  <data name="CurrentAccessProfileOff" xml:space="preserve">
+    <value>Access Profile er slået fra</value>
+  </data>
+  <data name="CurrentAccessProfileOn" xml:space="preserve">
+    <value>Access Profile er slået til</value>
+  </data>
+  <data name="CurrentBroadband" xml:space="preserve">
+    <value>Nuværende bredbånd</value>
+  </data>
+  <data name="Current_drifinfo_for_the_customer" xml:space="preserve">
+    <value>Aktuel drifinfo for kunden</value>
+  </data>
+  <data name="Current_setting" xml:space="preserve">
+    <value>Nuværende indstilling</value>
+  </data>
+  <data name="Current_Step" xml:space="preserve">
+    <value>Aktuelt trin</value>
+  </data>
+  <data name="Current_value" xml:space="preserve">
+    <value>Aktuel værdi</value>
+  </data>
+  <data name="Current_values" xml:space="preserve">
+    <value>Aktuelle værdier</value>
+  </data>
+  <data name="CustAddress" xml:space="preserve">
+    <value>Adresse</value>
+  </data>
+  <data name="CustNumber" xml:space="preserve">
+    <value>Nr.</value>
+  </data>
+  <data name="Customer" xml:space="preserve">
+    <value>Kunden</value>
+  </data>
+  <data name="CustomerInfomration" xml:space="preserve">
+    <value>Brugeroplysninger</value>
+  </data>
+  <data name="CustomerName" xml:space="preserve">
+    <value>Kundenavn</value>
+  </data>
+  <data name="customerNo" xml:space="preserve">
+    <value>Kundenr.</value>
+  </data>
+  <data name="CustomerNr" xml:space="preserve">
+    <value>KundeNr.</value>
+  </data>
+  <data name="CustomerNumber" xml:space="preserve">
+    <value>KundenNummer</value>
+  </data>
+  <data name="customerNumberFSM" xml:space="preserve">
+    <value>Kundenummer</value>
+  </data>
+  <data name="CustomerOverview" xml:space="preserve">
+    <value>Husstandsoverblik</value>
+  </data>
+  <data name="customerSelectedPlangtTime" xml:space="preserve">
+    <value>Kundevalgt plangt tid</value>
+  </data>
+  <data name="CustomerType" xml:space="preserve">
+    <value>Brugertype</value>
+  </data>
+  <data name="Customer_Info" xml:space="preserve">
+    <value>Evt. Kunde-/Kontaktpersonoplysninger</value>
+  </data>
+  <data name="Customer_name" xml:space="preserve">
+    <value>Brugernavn</value>
+  </data>
+  <data name="Customer_Number" xml:space="preserve">
+    <value>Kundenr.</value>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="Data" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="DataConnectorNotFound" xml:space="preserve">
+    <value>Ingen data SIK</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Dato</value>
+  </data>
+  <data name="Date_and_Time" xml:space="preserve">
+    <value>Dato og tid</value>
+  </data>
+  <data name="Day" xml:space="preserve">
+    <value>Dag</value>
+  </data>
+  <data name="Deaktivation" xml:space="preserve">
+    <value>Deaktiver</value>
+  </data>
+  <data name="DebuggingHistory" xml:space="preserve">
+    <value>Historik for fejlretning</value>
+  </data>
+  <data name="DefaultValues" xml:space="preserve">
+    <value>Testværdier</value>
+  </data>
+  <data name="DefaultVideosValue" xml:space="preserve">
+    <value>Der blev ikke fundet nogen videoer</value>
+  </data>
+  <data name="DelayMessage" xml:space="preserve">
+    <value>Det kan tage op til et par minutter før værdierne er opdateret. Prøv at opdatere igen om lidt.</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Slet</value>
+  </data>
+  <data name="DeletionPermissions_ServiceFail" xml:space="preserve">
+    <value>Det er ikke muligt at slette oplysningerne</value>
+  </data>
+  <data name="Deny_these_MAC_addresses" xml:space="preserve">
+    <value>Afvis disse MAC adresser</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Beskrivelse</value>
+  </data>
+  <data name="Designation" xml:space="preserve">
+    <value>Betegnelse</value>
+  </data>
+  <data name="desired_Date" xml:space="preserve">
+    <value>Ønskedato</value>
+  </data>
+  <data name="Detector" xml:space="preserve">
+    <value>Melder</value>
+  </data>
+  <data name="Diagnosis" xml:space="preserve">
+    <value>Diagnose</value>
+  </data>
+  <data name="Digital_receiver" xml:space="preserve">
+    <value>TV Boks</value>
+  </data>
+  <data name="Distributor" xml:space="preserve">
+    <value>fordeler</value>
+  </data>
+  <data name="Distributor_Address" xml:space="preserve">
+    <value>Adresse(r) og minimum een Fordelerterminering for aktuelt kabel skal udfyldes!</value>
+  </data>
+  <data name="DkpAdminChangePrimaryUser_Annuller" xml:space="preserve">
+    <value>Annuller</value>
+  </data>
+  <data name="DkpAdminChangePrimaryUser_Comment" xml:space="preserve">
+    <value>Når du trykker på send afsendes en email, der indeholder vejledning til at udføre en ændring af brugeroplysningerne på det primære login ved hjælp af NemID. Emailen afsendes automatisk, men det er stadig nødvendigt at have kontonummer og telefonnummer på produktet.</value>
+  </data>
+  <data name="DkpAdminChangePrimaryUser_EmailAddress" xml:space="preserve">
+    <value>Indtast emailadressen :</value>
+  </data>
+  <data name="DkpAdminChangePrimaryUser_Send" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="DkpAdminChangePrimaryUser_SuccessConfirmation" xml:space="preserve">
+    <value>Velkomst afsendt</value>
+  </data>
+  <data name="DkpAdminChangePrimaryUser_Title" xml:space="preserve">
+    <value>Ændring af primær bruger</value>
+  </data>
+  <data name="DkpAdminInviteUser_CheckBoxAddrComment" xml:space="preserve">
+    <value>Ja, den inviterede bruger bor på samme bopælsadresse som abonnementsejer. *</value>
+  </data>
+  <data name="DkpAdminInviteUser_ConfirmInviteUser" xml:space="preserve">
+    <value>Invitation afsendt</value>
+  </data>
+  <data name="DkpAdminInviteUser_ConfirmUserAddrComment" xml:space="preserve">
+    <value>Bekræft at brugeren bor på samme bopælsadresse som abonnementsejer.</value>
+  </data>
+  <data name="DkpAdminInviteUser_ContactInformation" xml:space="preserve">
+    <value>Kontaktoplysninger</value>
+  </data>
+  <data name="DkpAdminInviteUser_EmailAddress" xml:space="preserve">
+    <value>E-mail adresse * :</value>
+  </data>
+  <data name="DkpAdminInviteUser_Title" xml:space="preserve">
+    <value>Invitér bruger</value>
+  </data>
+  <data name="DOCdesignation" xml:space="preserve">
+    <value>DOK-betegnelse</value>
+  </data>
+  <data name="Does_not_exist" xml:space="preserve">
+    <value>eksisterer ikke</value>
+  </data>
+  <data name="Door" xml:space="preserve">
+    <value>Dor</value>
+  </data>
+  <data name="Drop_off_point" xml:space="preserve">
+    <value>Afleveringspunkt</value>
+  </data>
+  <data name="DSLMONTool" xml:space="preserve">
+    <value>DSL Monitoreringsværktøj</value>
+  </data>
+  <data name="Duet_control_off" xml:space="preserve">
+    <value>Duetstyring slået fra</value>
+  </data>
+  <data name="Duet_Voip" xml:space="preserve">
+    <value>Duetstyring for</value>
+  </data>
+  <data name="duration" xml:space="preserve">
+    <value>Varighed(kvarter)</value>
+  </data>
+  <data name="Duration_" xml:space="preserve">
+    <value>Varighed</value>
+  </data>
+  <data name="During_Bore" xml:space="preserve">
+    <value>Underboring</value>
+  </data>
+  <data name="Dynamic" xml:space="preserve">
+    <value>dynamisk</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Rediger</value>
+  </data>
+  <data name="EditDeliveryCordCancel" xml:space="preserve">
+    <value>Annuller</value>
+  </data>
+  <data name="EditDeliveryCordFindAlternative" xml:space="preserve">
+    <value>Find alternativ</value>
+  </data>
+  <data name="EditDeliveryCordNallStatus" xml:space="preserve">
+    <value>Skal håndteres manuelt</value>
+  </data>
+  <data name="EditDeliveryCordNoRecordFound" xml:space="preserve">
+    <value>Ingen post fundet</value>
+  </data>
+  <data name="EditDeliveryCordSearchTitle" xml:space="preserve">
+    <value>Søg/redigere  ledningsvej</value>
+  </data>
+  <data name="EditDeliveryCordTitle" xml:space="preserve">
+    <value>Søg/redigere  ledningsvej fra MSOS ordre</value>
+  </data>
+  <data name="EditDeliveryCordUpdate" xml:space="preserve">
+    <value>Opdatering</value>
+  </data>
+  <data name="EditSender" xml:space="preserve">
+    <value>Afsender</value>
+  </data>
+  <data name="Edit_call_time" xml:space="preserve">
+    <value>Rediger ringetid</value>
+  </data>
+  <data name="Edit_or_delete" xml:space="preserve">
+    <value>Rediger/Slet</value>
+  </data>
+  <data name="Edit_this_error" xml:space="preserve">
+    <value>Redigering af denne fejl</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="EmailAddress" xml:space="preserve">
+    <value>Email Adresse</value>
+  </data>
+  <data name="EmailCopy" xml:space="preserve">
+    <value>Emailkopi</value>
+  </data>
+  <data name="Email_CustomerAdmin" xml:space="preserve">
+    <value>email</value>
+  </data>
+  <data name="Email_rules" xml:space="preserve">
+    <value>Email regler</value>
+  </data>
+  <data name="Emergencylookup" xml:space="preserve">
+    <value>Vælg kunde</value>
+  </data>
+  <data name="Empty_note" xml:space="preserve">
+    <value>Tom note</value>
+  </data>
+  <data name="Enable_host_ip" xml:space="preserve">
+    <value>Aktiver værts IP</value>
+  </data>
+  <data name="Enable_ip" xml:space="preserve">
+    <value>Frigiv IP</value>
+  </data>
+  <data name="Encryption" xml:space="preserve">
+    <value>Kryptering</value>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>Til</value>
+  </data>
+  <data name="EndGuide" xml:space="preserve">
+    <value>Fejl: Guiden kan ikke genoptages</value>
+  </data>
+  <data name="EndGuideMessage" xml:space="preserve">
+    <value>Du kan afslutte og gemme guiden, eller du kan fejlmelde.</value>
+  </data>
+  <data name="EndGuideNoBtn" xml:space="preserve">
+    <value>Fortsæt </value>
+  </data>
+  <data name="EndGuideYesBtn" xml:space="preserve">
+    <value>Afslut og gem</value>
+  </data>
+  <data name="Ending_ip_addresses" xml:space="preserve">
+    <value>Slut IP adresser</value>
+  </data>
+  <data name="End_Close" xml:space="preserve">
+    <value>Gem noter</value>
+  </data>
+  <data name="End_date" xml:space="preserve">
+    <value>Slutdato</value>
+  </data>
+  <data name="engineeringDepartment" xml:space="preserve">
+    <value>teknikafdeling</value>
+  </data>
+  <data name="Entered" xml:space="preserve">
+    <value>Indtastede</value>
+  </data>
+  <data name="Enter_CPR_number_and_continue" xml:space="preserve">
+    <value>Angiv lØnnummer og tryk "Fortsæt"</value>
+  </data>
+  <data name="Enter_new_email" xml:space="preserve">
+    <value>Indtast ny email</value>
+  </data>
+  <data name="Enter_new_mobilenumber_or_email" xml:space="preserve">
+    <value>Indtast nyt mobil eller email</value>
+  </data>
+  <data name="Enter_new_number" xml:space="preserve">
+    <value>Indtast nyt mobilnummer</value>
+  </data>
+  <data name="Equipment" xml:space="preserve">
+    <value>Udstyr</value>
+  </data>
+  <data name="ErrorAddress" xml:space="preserve">
+    <value>Fejladresse</value>
+  </data>
+  <data name="ErrorClass" xml:space="preserve">
+    <value>Fejlklasse</value>
+  </data>
+  <data name="errorcode" xml:space="preserve">
+    <value>fejlkode</value>
+  </data>
+  <data name="ErrorCreatingNetbasisEmail" xml:space="preserve">
+    <value>Fejl ved oprettelse af nettobasis email.</value>
+  </data>
+  <data name="Error_Password_failed_to_change" xml:space="preserve">
+    <value>Fejl: Kan ikke ændre adgangskode via sms</value>
+  </data>
+  <data name="Error_table_the_last_90_days" xml:space="preserve">
+    <value>Fejloversigt</value>
+  </data>
+  <data name="error_type" xml:space="preserve">
+    <value>Fejltype</value>
+  </data>
+  <data name="Etray2Title" xml:space="preserve">
+    <value>Udskiftning af fordeler/Kabel i accesnettet</value>
+  </data>
+  <data name="Etray3Title" xml:space="preserve">
+    <value>fakturering</value>
+  </data>
+  <data name="Etray3Title1" xml:space="preserve">
+    <value>Fakturering</value>
+  </data>
+  <data name="Excavation" xml:space="preserve">
+    <value>Gravning beregnet:</value>
+  </data>
+  <data name="Existing_port_forwarding_rules" xml:space="preserve">
+    <value>Eksisterende fast IP</value>
+  </data>
+  <data name="ExpenseAndConsumption" xml:space="preserve">
+    <value>Regning og forbrug</value>
+  </data>
+  <data name="Expires_on" xml:space="preserve">
+    <value>Udløber d.</value>
+  </data>
+  <data name="Explanation" xml:space="preserve">
+    <value>Forklaring</value>
+  </data>
+  <data name="export" xml:space="preserve">
+    <value>udfØrsel</value>
+  </data>
+  <data name="ExportToExcel" xml:space="preserve">
+    <value>Eksport til Excel</value>
+  </data>
+  <data name="Extra_channel" xml:space="preserve">
+    <value>Ekstra kanal</value>
+  </data>
+  <data name="Facility_Name" xml:space="preserve">
+    <value>Anlægsnavn</value>
+  </data>
+  <data name="Factory_reset" xml:space="preserve">
+    <value>Gendan fabriksindstillinger</value>
+  </data>
+  <data name="Failed" xml:space="preserve">
+    <value>mislykkedes</value>
+  </data>
+  <data name="Failure_to_respond" xml:space="preserve">
+    <value>Manglende svar</value>
+  </data>
+  <data name="Faso" xml:space="preserve">
+    <value>Faso-ID</value>
+  </data>
+  <data name="FasoUpdated" xml:space="preserve">
+    <value>Fejlbeskrivelsen er blevet opdateret</value>
+  </data>
+  <data name="FasoXWorkComplete" xml:space="preserve">
+    <value>Fejl afhjulpet</value>
+  </data>
+  <data name="Faso_has_been_closed" xml:space="preserve">
+    <value>Faso er blevet lukket</value>
+  </data>
+  <data name="FasTimeSlotRequired" xml:space="preserve">
+    <value>Vælg Tidsinterval</value>
+  </data>
+  <data name="fault_is_Instrument" xml:space="preserve">
+    <value>FejiInstrument</value>
+  </data>
+  <data name="Favorites_list" xml:space="preserve">
+    <value>Favoritlister</value>
+  </data>
+  <data name="FeatureNotImplemented" xml:space="preserve">
+    <value>Feature er ikke implementeret</value>
+  </data>
+  <data name="FeedBackStatus" xml:space="preserve">
+    <value>Brugeren er sat til at bruge SMS feedback</value>
+  </data>
+  <data name="FeedbackTab_Order_Feedback" xml:space="preserve">
+    <value>Ordrefeedback</value>
+  </data>
+  <data name="Fetch" xml:space="preserve">
+    <value>Hent</value>
+  </data>
+  <data name="Field_can_not_be_empty" xml:space="preserve">
+    <value>felt skal udfyldes</value>
+  </data>
+  <data name="file" xml:space="preserve">
+    <value>Filer</value>
+  </data>
+  <data name="FileAnnex" xml:space="preserve">
+    <value>Filer/Bilag</value>
+  </data>
+  <data name="film_and_series_consumption_from" xml:space="preserve">
+    <value>Film og serieforbrug</value>
+  </data>
+  <data name="Find_another_mail_account" xml:space="preserve">
+    <value>Find anden e-mail konto</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>Fornavn</value>
+  </data>
+  <data name="firstTimeReceived" xml:space="preserve">
+    <value>fØrste gang modtaget</value>
+  </data>
+  <data name="FixedNumber" xml:space="preserve">
+    <value>Anlægsnummer</value>
+  </data>
+  <data name="Fixed_ip" xml:space="preserve">
+    <value>Fast IP</value>
+  </data>
+  <data name="Floor_number" xml:space="preserve">
+    <value>Etage</value>
+  </data>
+  <data name="Fordeler" xml:space="preserve">
+    <value>Fordeler</value>
+  </data>
+  <data name="FordelerAddress" xml:space="preserve">
+    <value>Adresse</value>
+  </data>
+  <data name="FordelerCause" xml:space="preserve">
+    <value>Fejlårsag</value>
+  </data>
+  <data name="Forward" xml:space="preserve">
+    <value>Viderestilling</value>
+  </data>
+  <data name="forward_only" xml:space="preserve">
+    <value>forward only</value>
+  </data>
+  <data name="forward_with_copy" xml:space="preserve">
+    <value>forward with copy</value>
+  </data>
+  <data name="For_distributor" xml:space="preserve">
+    <value>Til Fordeler</value>
+  </data>
+  <data name="For_given" xml:space="preserve">
+    <value>for givet</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>Fra</value>
+  </data>
+  <data name="From_distributor" xml:space="preserve">
+    <value>Fra Fordeler</value>
+  </data>
+  <data name="From_port" xml:space="preserve">
+    <value>Fra port</value>
+  </data>
+  <data name="From_position" xml:space="preserve">
+    <value>Fra position</value>
+  </data>
+  <data name="Full_Pack" xml:space="preserve">
+    <value>Fuldpakke</value>
+  </data>
+  <data name="Function" xml:space="preserve">
+    <value>Funktion</value>
+  </data>
+  <data name="further_course" xml:space="preserve">
+    <value>Videre forløb</value>
+  </data>
+  <data name="Galvanic" xml:space="preserve">
+    <value>Galvanisk</value>
+  </data>
+  <data name="Galvanic_details" xml:space="preserve">
+    <value>Detaljer galvanisk</value>
+  </data>
+  <data name="Gammeladr" xml:space="preserve">
+    <value>Tidligere Adresse</value>
+  </data>
+  <data name="General_measurement_data" xml:space="preserve">
+    <value>Måledata generelt</value>
+  </data>
+  <data name="Generic_Error_Message" xml:space="preserve">
+    <value>Øv, en uventet fejl betyder indholdet ikke kan vises</value>
+  </data>
+  <data name="Geography" xml:space="preserve">
+    <value>Geografi</value>
+  </data>
+  <data name="Get" xml:space="preserve">
+    <value>få</value>
+  </data>
+  <data name="get_source" xml:space="preserve">
+    <value>opretkilde</value>
+  </data>
+  <data name="Give_feedback" xml:space="preserve">
+    <value>Giv feedback</value>
+  </data>
+  <data name="GKS_key" xml:space="preserve">
+    <value>GKS nøgle</value>
+  </data>
+  <data name="Goto_previous_step" xml:space="preserve">
+    <value>Gå til forrige trin</value>
+  </data>
+  <data name="GPS_E" xml:space="preserve">
+    <value>GPS E</value>
+  </data>
+  <data name="GPS_N" xml:space="preserve">
+    <value>GPS N</value>
+  </data>
+  <data name="Graph" xml:space="preserve">
+    <value>Graf</value>
+  </data>
+  <data name="Grave" xml:space="preserve">
+    <value>Gravemeter udfyldes nedenfor her:</value>
+  </data>
+  <data name="Grave_meter" xml:space="preserve">
+    <value>Gravemeter er vejledende - Entreprenør opmåler faktiske længder!</value>
+  </data>
+  <data name="guidelines_procedures" xml:space="preserve">
+    <value>retningslinjer/procedurer</value>
+  </data>
+  <data name="Guides" xml:space="preserve">
+    <value>Guider</value>
+  </data>
+  <data name="Guide_feedback" xml:space="preserve">
+    <value>Guide tilbagemeldinger</value>
+  </data>
+  <data name="Guiding_text" xml:space="preserve">
+    <value>Ledetekst</value>
+  </data>
+  <data name="GuidKey" xml:space="preserve">
+    <value>GUID</value>
+  </data>
+  <data name="Harddisc" xml:space="preserve">
+    <value>Harddisk GB</value>
+  </data>
+  <data name="Has_been_added" xml:space="preserve">
+    <value>er blevet tilføjet</value>
+  </data>
+  <data name="Has_been_deleted" xml:space="preserve">
+    <value>er blevet slettet</value>
+  </data>
+  <data name="Has_been_done" xml:space="preserve">
+    <value>er blevet gjort</value>
+  </data>
+  <data name="Has_been_saved" xml:space="preserve">
+    <value>er blevet gemt</value>
+  </data>
+  <data name="Has_been_set" xml:space="preserve">
+    <value>er blevet sat</value>
+  </data>
+  <data name="Has_been_updated" xml:space="preserve">
+    <value>er blevet opdateret</value>
+  </data>
+  <data name="Headline" xml:space="preserve">
+    <value>Overskrift</value>
+  </data>
+  <data name="Hello" xml:space="preserve">
+    <value>HelloWorld</value>
+  </data>
+  <data name="HF_Number" xml:space="preserve">
+    <value>HF_Nummer</value>
+  </data>
+  <data name="Hidden_channels" xml:space="preserve">
+    <value>Skjulte kanaler</value>
+  </data>
+  <data name="Hide" xml:space="preserve">
+    <value>Skjul</value>
+  </data>
+  <data name="HideShowControl" xml:space="preserve">
+    <value>Skjul</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>Historik</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Hjemme</value>
+  </data>
+  <data name="HomeDisk" xml:space="preserve">
+    <value>HomeDisk</value>
+  </data>
+  <data name="HomePhoneNumber" xml:space="preserve">
+    <value>Alternativt Kontaktnummer</value>
+  </data>
+  <data name="Hour" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="Houseno" xml:space="preserve">
+    <value>Hus nr.</value>
+  </data>
+  <data name="HouseNumber" xml:space="preserve">
+    <value>Husnummer</value>
+  </data>
+  <data name="Id" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="IMAP_access" xml:space="preserve">
+    <value>IMAP adgang</value>
+  </data>
+  <data name="InactiveVVMActivationStatus" xml:space="preserve">
+    <value>Ikke aktiv</value>
+  </data>
+  <data name="Include_notes" xml:space="preserve">
+    <value>Medtag noter</value>
+  </data>
+  <data name="Incoming_rules" xml:space="preserve">
+    <value>Indkomne regler</value>
+  </data>
+  <data name="Info_Note" xml:space="preserve">
+    <value>Info Note Kabel</value>
+  </data>
+  <data name="Insert_new_setting" xml:space="preserve">
+    <value>Sæt ny indstilling</value>
+  </data>
+  <data name="Installation" xml:space="preserve">
+    <value>Installationen</value>
+  </data>
+  <data name="Installationstatus" xml:space="preserve">
+    <value>Installationstatus</value>
+  </data>
+  <data name="installation_agreement" xml:space="preserve">
+    <value>installationsaftale</value>
+  </data>
+  <data name="Internal_Server_Error" xml:space="preserve">
+    <value>Intern serverfejl</value>
+  </data>
+  <data name="InternetNr" xml:space="preserve">
+    <value>Internet KundeNr.</value>
+  </data>
+  <data name="Invalid" xml:space="preserve">
+    <value>Ugyldig</value>
+  </data>
+  <data name="Invalid_parameters" xml:space="preserve">
+    <value>Ugyldige parametre</value>
+  </data>
+  <data name="Invalid_phone_number" xml:space="preserve">
+    <value>Ugyldigt telefonnummer</value>
+  </data>
+  <data name="invoice" xml:space="preserve">
+    <value>Faktura</value>
+  </data>
+  <data name="In_the_period" xml:space="preserve">
+    <value>I tidsrummet</value>
+  </data>
+  <data name="IphoneProtocol" xml:space="preserve">
+    <value>iPhone</value>
+  </data>
+  <data name="Ip_address" xml:space="preserve">
+    <value>IP adresse</value>
+  </data>
+  <data name="Ip_function" xml:space="preserve">
+    <value>IP funktion</value>
+  </data>
+  <data name="ISP" xml:space="preserve">
+    <value>ISP</value>
+  </data>
+  <data name="Is_not_valid" xml:space="preserve">
+    <value>er ikke gyldig</value>
+  </data>
+  <data name="Is_required" xml:space="preserve">
+    <value>er påkrævet</value>
+  </data>
+  <data name="Itemized_billing_and_card_payment" xml:space="preserve">
+    <value>Regningsspecifikation og Betalingsform</value>
+  </data>
+  <data name="JobType" xml:space="preserve">
+    <value>Joptype</value>
+  </data>
+  <data name="Kabel" xml:space="preserve">
+    <value>Kabel</value>
+  </data>
+  <data name="keybox" xml:space="preserve">
+    <value>nogleboks</value>
+  </data>
+  <data name="KeyBoxLocation" xml:space="preserve">
+    <value>Nøgleboksplacering</value>
+  </data>
+  <data name="kilobitspersec" xml:space="preserve">
+    <value>kilobits/sec</value>
+  </data>
+  <data name="KOS_no" xml:space="preserve">
+    <value>KØS nr.</value>
+  </data>
+  <data name="labor_code" xml:space="preserve">
+    <value>arbejdskode</value>
+  </data>
+  <data name="labor_code_name" xml:space="preserve">
+    <value>arbejdskodenavn</value>
+  </data>
+  <data name="Lastname" xml:space="preserve">
+    <value>Efternavn</value>
+  </data>
+  <data name="Last_reboot" xml:space="preserve">
+    <value>Sidste genstart</value>
+  </data>
+  <data name="Last_updated" xml:space="preserve">
+    <value>Senest opdateret</value>
+  </data>
+  <data name="latest" xml:space="preserve">
+    <value>senest</value>
+  </data>
+  <data name="Lease_type" xml:space="preserve">
+    <value>Lease type</value>
+  </data>
+  <data name="Length" xml:space="preserve">
+    <value>Længde Meter</value>
+  </data>
+  <data name="LID" xml:space="preserve">
+    <value>LID</value>
+  </data>
+  <data name="Lid_circuit" xml:space="preserve">
+    <value>LID/Kredsløb</value>
+  </data>
+  <data name="linestatus" xml:space="preserve">
+    <value>Linjestatus</value>
+  </data>
+  <data name="Line_is_healthy" xml:space="preserve">
+    <value>Linjen er sund</value>
+  </data>
+  <data name="Line_speed" xml:space="preserve">
+    <value>Linjehastighed</value>
+  </data>
+  <data name="Line_speed_locked_in" xml:space="preserve">
+    <value>Linjen er låst i hastighed</value>
+  </data>
+  <data name="Line_status" xml:space="preserve">
+    <value>Linjestatus</value>
+  </data>
+  <data name="Link_state" xml:space="preserve">
+    <value>Linjestatus</value>
+  </data>
+  <data name="Link_web_part" xml:space="preserve">
+    <value>Nyttige links</value>
+  </data>
+  <data name="ListOfModems" xml:space="preserve">
+    <value>Modem liste</value>
+  </data>
+  <data name="Local_ip_address" xml:space="preserve">
+    <value>Lokal IP adresse</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Placering</value>
+  </data>
+  <data name="Locked_on" xml:space="preserve">
+    <value>Låst den</value>
+  </data>
+  <data name="Locked_up" xml:space="preserve">
+    <value>Låses op den</value>
+  </data>
+  <data name="Mac_address" xml:space="preserve">
+    <value>MAC adresse</value>
+  </data>
+  <data name="MAC_Filtering" xml:space="preserve">
+    <value>MAC-filtrering</value>
+  </data>
+  <data name="mails_per_week" xml:space="preserve">
+    <value>mulige per uge</value>
+  </data>
+  <data name="Mains" xml:space="preserve">
+    <value>Netdel</value>
+  </data>
+  <data name="Manage_Stik_Cables" xml:space="preserve">
+    <value>Stik Kabel Håndtering</value>
+  </data>
+  <data name="manualinvoice" xml:space="preserve">
+    <value>Manuel Fakturering</value>
+  </data>
+  <data name="Maximal" xml:space="preserve">
+    <value>Maximal</value>
+  </data>
+  <data name="Maximum_download" xml:space="preserve">
+    <value>Maximum download</value>
+  </data>
+  <data name="Maximum_security_can_not_be_used_if_you_have_tdc_tv_or_broadband" xml:space="preserve">
+    <value>Maksimum sikkerhed kan ikke benyttes, hvis du har TDC TV eller bredbåndstelefoni</value>
+  </data>
+  <data name="Maximum_upload" xml:space="preserve">
+    <value>Maximum upload</value>
+  </data>
+  <data name="Menu_language" xml:space="preserve">
+    <value>Menusprog</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>Besked</value>
+  </data>
+  <data name="messages" xml:space="preserve">
+    <value>Beskeder</value>
+  </data>
+  <data name="Message_box_full" xml:space="preserve">
+    <value>Besked boks fuld</value>
+  </data>
+  <data name="Minimal" xml:space="preserve">
+    <value>Minimal</value>
+  </data>
+  <data name="Minimum_security" xml:space="preserve">
+    <value>Minimum sikkerhed</value>
+  </data>
+  <data name="Miscellaneous" xml:space="preserve">
+    <value>Diverse</value>
+  </data>
+  <data name="Mobil" xml:space="preserve">
+    <value>Mobil</value>
+  </data>
+  <data name="Mobilephone" xml:space="preserve">
+    <value>Mobiltlf</value>
+  </data>
+  <data name="Mobile_number" xml:space="preserve">
+    <value>Mobilnummer</value>
+  </data>
+  <data name="Mobiltlf" xml:space="preserve">
+    <value>Mobilephone</value>
+  </data>
+  <data name="ModemList" xml:space="preserve">
+    <value>Modemliste</value>
+  </data>
+  <data name="module" xml:space="preserve">
+    <value>modul</value>
+  </data>
+  <data name="moduleplacement" xml:space="preserve">
+    <value>modulplacering</value>
+  </data>
+  <data name="Month" xml:space="preserve">
+    <value>Måned</value>
+  </data>
+  <data name="MssgFailed" xml:space="preserve">
+    <value>Uautoriseret adgang</value>
+  </data>
+  <data name="Must_be_a_number_between" xml:space="preserve">
+    <value>skal være et tal mellem</value>
+  </data>
+  <data name="Muted" xml:space="preserve">
+    <value>Muted</value>
+  </data>
+  <data name="My_last_sessions" xml:space="preserve">
+    <value>Mine seneste sessioner</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Navn</value>
+  </data>
+  <data name="Nedgrav" xml:space="preserve">
+    <value>Nedgrav</value>
+  </data>
+  <data name="Network" xml:space="preserve">
+    <value>netværk</value>
+  </data>
+  <data name="Network_authentication" xml:space="preserve">
+    <value>Netværksgodkendelse</value>
+  </data>
+  <data name="Network_configuration" xml:space="preserve">
+    <value>Netværkskonfiguration</value>
+  </data>
+  <data name="Network_key" xml:space="preserve">
+    <value>Netværksnøgle</value>
+  </data>
+  <data name="Network_name" xml:space="preserve">
+    <value>Netværksnavn</value>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>Ny</value>
+  </data>
+  <data name="New_Address" xml:space="preserve">
+    <value>Nye adresse</value>
+  </data>
+  <data name="New_messages" xml:space="preserve">
+    <value>Nye Beskeder</value>
+  </data>
+  <data name="New_Tab" xml:space="preserve">
+    <value>Nyt vindue</value>
+  </data>
+  <data name="no" xml:space="preserve">
+    <value>nej</value>
+  </data>
+  <data name="NoArticlesInThisSection" xml:space="preserve">
+    <value>Der findes ingen artikler for dette område</value>
+  </data>
+  <data name="Node_name" xml:space="preserve">
+    <value>Node navn</value>
+  </data>
+  <data name="NoGuidesInThisSection" xml:space="preserve">
+    <value>Der findes ingen guides for dette område</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>notat</value>
+  </data>
+  <data name="NoterMessage" xml:space="preserve">
+    <value>Besked i log</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Noter</value>
+  </data>
+  <data name="Note_Text" xml:space="preserve">
+    <value>Bemærk Tekst</value>
+  </data>
+  <data name="Notifications_by" xml:space="preserve">
+    <value>Notifikationer ved</value>
+  </data>
+  <data name="Notifications_of" xml:space="preserve">
+    <value>Notifikationer på</value>
+  </data>
+  <data name="Notify_user" xml:space="preserve">
+    <value>Notificer ejer</value>
+  </data>
+  <data name="NotYetAttempted" xml:space="preserve">
+    <value>endnu ikke forsØgt udfØrt</value>
+  </data>
+  <data name="NotYetComplete" xml:space="preserve">
+    <value>endnu ikke udfØrt</value>
+  </data>
+  <data name="not_active" xml:space="preserve">
+    <value>not active</value>
+  </data>
+  <data name="Not_found" xml:space="preserve">
+    <value>ikke fundet</value>
+  </data>
+  <data name="NoUsersFound" xml:space="preserve">
+    <value>Ingen brugere fundet.</value>
+  </data>
+  <data name="No_" xml:space="preserve">
+    <value>Nr.</value>
+  </data>
+  <data name="No_connected_devices" xml:space="preserve">
+    <value>Ingen tilsluttede enheder</value>
+  </data>
+  <data name="No_connected_devices_ToolDevicesStatus" xml:space="preserve">
+    <value>Ingen tilsluttede enheder blev fundet på kundens router</value>
+  </data>
+  <data name="No_customer_at_the_address" xml:space="preserve">
+    <value>Ingen kunde på adressen-ønsker du at se mulige løsninger?</value>
+  </data>
+  <data name="No_customer_found" xml:space="preserve">
+    <value>ingen kunde fundet</value>
+  </data>
+  <data name="No_lid_found" xml:space="preserve">
+    <value>Ingen LID fundet</value>
+  </data>
+  <data name="No_second_tuner_online" xml:space="preserve">
+    <value>Ingen anden digitalmodtager online</value>
+  </data>
+  <data name="No_Value" xml:space="preserve">
+    <value>Nej</value>
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>Nummer</value>
+  </data>
+  <data name="Numberoftickets" xml:space="preserve">
+    <value>Antal tidligere fejl</value>
+  </data>
+  <data name="Of" xml:space="preserve">
+    <value>Af</value>
+  </data>
+  <data name="ofDelivery" xml:space="preserve">
+    <value>afleveringstid</value>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>Slukket</value>
+  </data>
+  <data name="Office_hours" xml:space="preserve">
+    <value>Træffetid</value>
+  </data>
+  <data name="of_Delivery" xml:space="preserve">
+    <value>Afleveringstid</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="Old_Address" xml:space="preserve">
+    <value>Tidligere adresse</value>
+  </data>
+  <data name="Old_work_specification" xml:space="preserve">
+    <value>Gammel arbejdsspecifikation</value>
+  </data>
+  <data name="Omgravning_after_cable_fault" xml:space="preserve">
+    <value>Omgravning efter kabelfejl på privat grun</value>
+  </data>
+  <data name="OMTPProtocol" xml:space="preserve">
+    <value>Android, Windows, øvrige(OMTP)</value>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>Tændt</value>
+  </data>
+  <data name="Only_digging" xml:space="preserve">
+    <value>BEMÆRK: Kun gravning på privat grund!</value>
+  </data>
+  <data name="OnsiteSla" xml:space="preserve">
+    <value>Onsite SLA</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Åbne</value>
+  </data>
+  <data name="OpenCases_NoCasesMessage" xml:space="preserve">
+    <value>Der er ingen åbne sager for denne kunde</value>
+  </data>
+  <data name="OpeninDetail" xml:space="preserve">
+    <value>Se alle løsninger</value>
+  </data>
+  <data name="Opening_tv_signal_failed" xml:space="preserve">
+    <value>Åbning tv signal mislykkedes</value>
+  </data>
+  <data name="OpenSearch" xml:space="preserve">
+    <value>Søg alternativ adresse</value>
+  </data>
+  <data name="Open_Cases" xml:space="preserve">
+    <value>åbne sager</value>
+  </data>
+  <data name="Open_DSLMON_Server" xml:space="preserve">
+    <value>Åben DSL Monitor</value>
+  </data>
+  <data name="Open_guide_or_article_Select_customer_type" xml:space="preserve">
+    <value>Start guide eller artikel - Vælg kundetype</value>
+  </data>
+  <data name="Open_in_new_tab" xml:space="preserve">
+    <value>Åben i ny fane</value>
+  </data>
+  <data name="operating" xml:space="preserve">
+    <value>Drift</value>
+  </data>
+  <data name="Operation" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="or" xml:space="preserve">
+    <value>eller</value>
+  </data>
+  <data name="OrderNumber" xml:space="preserve">
+    <value>Ordrenummer</value>
+  </data>
+  <data name="OrderType" xml:space="preserve">
+    <value>Ordretype</value>
+  </data>
+  <data name="OrderTypeFSM" xml:space="preserve">
+    <value>Ordretype</value>
+  </data>
+  <data name="Outgoing_rules" xml:space="preserve">
+    <value>Udgående regler</value>
+  </data>
+  <data name="Outgoing_rules_for_following_services" xml:space="preserve">
+    <value>Udgående trafik tillades for følgende services</value>
+  </data>
+  <data name="Outside_coverage" xml:space="preserve">
+    <value>Slukket/udenfor dækning</value>
+  </data>
+  <data name="package" xml:space="preserve">
+    <value>programpakke</value>
+  </data>
+  <data name="Package_details_not_found" xml:space="preserve">
+    <value>Der kunne ikke hentes informationer om kundens kanaler</value>
+  </data>
+  <data name="Page" xml:space="preserve">
+    <value>Side</value>
+  </data>
+  <data name="Page_number_must_be_grater_than_zero" xml:space="preserve">
+    <value>Sidetal skal være større end nul</value>
+  </data>
+  <data name="Parent_channels" xml:space="preserve">
+    <value>Forældre-låste kanaler</value>
+  </data>
+  <data name="ParkedGuides_ConfirmationMessage" xml:space="preserve">
+    <value>Guiden er blevet parkeret af en anden bruger. Er du sikker på, du vil overtage sessionen?</value>
+  </data>
+  <data name="ParkeredGuides_NoGuidesMessage" xml:space="preserve">
+    <value>Der er ingen parkerede guides for denne kunde</value>
+  </data>
+  <data name="Park_guide" xml:space="preserve">
+    <value>Parker</value>
+  </data>
+  <data name="Park_guide_tooltip" xml:space="preserve">
+    <value>Gem og parkere igangværende guide til senere</value>
+  </data>
+  <data name="Payment_Deadline" xml:space="preserve">
+    <value>Betalingsfrist</value>
+  </data>
+  <data name="performed" xml:space="preserve">
+    <value>udfØrt</value>
+  </data>
+  <data name="performing" xml:space="preserve">
+    <value>Udførende</value>
+  </data>
+  <data name="Period" xml:space="preserve">
+    <value>Periode</value>
+  </data>
+  <data name="Permitter_numbers_to_remotely" xml:space="preserve">
+    <value>Tilladte numre til fjernaflytning</value>
+  </data>
+  <data name="PhoneNumber" xml:space="preserve">
+    <value>Kontaktnummer</value>
+  </data>
+  <data name="Pin" xml:space="preserve">
+    <value>Pinkode</value>
+  </data>
+  <data name="Pingtest" xml:space="preserve">
+    <value>Pingtest</value>
+  </data>
+  <data name="Pingtime_average" xml:space="preserve">
+    <value>Pingtid, gennemsnit</value>
+  </data>
+  <data name="Ping_ReleaseIP_Failed" xml:space="preserve">
+    <value>Frigivelse IP mislykkedes for</value>
+  </data>
+  <data name="Ping_result" xml:space="preserve">
+    <value>Ping resultat</value>
+  </data>
+  <data name="PlannedResolvementDate" xml:space="preserve">
+    <value>Afhjulpet inden</value>
+  </data>
+  <data name="plannedTime" xml:space="preserve">
+    <value>planlagttid</value>
+  </data>
+  <data name="PlanStartDttm" xml:space="preserve">
+    <value>Planlagt</value>
+  </data>
+  <data name="Plant_Form" xml:space="preserve">
+    <value>Anlægsform</value>
+  </data>
+  <data name="plug" xml:space="preserve">
+    <value>Stik</value>
+  </data>
+  <data name="POP3_access" xml:space="preserve">
+    <value>POP3 adgang</value>
+  </data>
+  <data name="Popup_customer_changed" xml:space="preserve">
+    <value>Kunden blev opdateret</value>
+  </data>
+  <data name="Popup_Opened_guides_will_be_parked" xml:space="preserve">
+    <value>Åbne guider vil blive parkeret</value>
+  </data>
+  <data name="PortalTitle_Cip" xml:space="preserve">
+    <value>TDC - Kundeservice Portal</value>
+  </data>
+  <data name="PortalTitle_MyTp" xml:space="preserve">
+    <value>TDC - My TP</value>
+  </data>
+  <data name="PortalTitle_Tp" xml:space="preserve">
+    <value>TDC - Tekniker Portal</value>
+  </data>
+  <data name="PortalTitle_Tsc" xml:space="preserve">
+    <value>TDC - Teknisk Support Center</value>
+  </data>
+  <data name="PortalTitle_Wsp" xml:space="preserve">
+    <value>TDC - Wholesale Portal</value>
+  </data>
+  <data name="PortalType" xml:space="preserve">
+    <value>Portal</value>
+  </data>
+  <data name="PortOpen" xml:space="preserve">
+    <value>Åben</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="PositionComment" xml:space="preserve">
+    <value>Position bemærkning</value>
+  </data>
+  <data name="PossibleAtAddress" xml:space="preserve">
+    <value>Muligt på addressen</value>
+  </data>
+  <data name="PostalDistrict" xml:space="preserve">
+    <value>By eller sted</value>
+  </data>
+  <data name="PostNo" xml:space="preserve">
+    <value>Postnummer/By</value>
+  </data>
+  <data name="PostNumber" xml:space="preserve">
+    <value>Post nr.</value>
+  </data>
+  <data name="Post_Number" xml:space="preserve">
+    <value>Postnr.</value>
+  </data>
+  <data name="Premises_No" xml:space="preserve">
+    <value>Anlægsnr</value>
+  </data>
+  <data name="PreviousInvoices" xml:space="preserve">
+    <value>Gamle regninger</value>
+  </data>
+  <data name="PreviousLID" xml:space="preserve">
+    <value>Tidligere LID</value>
+  </data>
+  <data name="Previous_steps" xml:space="preserve">
+    <value>Tidligere trin</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>Pris</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Udskriv</value>
+  </data>
+  <data name="Print_your_search" xml:space="preserve">
+    <value>Print din søgning</value>
+  </data>
+  <data name="Priority" xml:space="preserve">
+    <value>Prioritet</value>
+  </data>
+  <data name="PriorityNote" xml:space="preserve">
+    <value>Hvis Prioriteten er "Akut","Ikke Akut" eller "Nedgravning kabel" skal du kontakte projektcentret på 666 68118  for at orientere om, at blanketten er afsendt til behandling.</value>
+  </data>
+  <data name="private_phone" xml:space="preserve">
+    <value>Privat telefon</value>
+  </data>
+  <data name="Privileges" xml:space="preserve">
+    <value>Rettighedstid</value>
+  </data>
+  <data name="ProblemAddingSubUserToUserProfile" xml:space="preserve">
+    <value>Kunne ikke tilføje underbruger</value>
+  </data>
+  <data name="ProblemRemovingSubUserFromUserProfile" xml:space="preserve">
+    <value>Kunne ikke fjerne underbruger</value>
+  </data>
+  <data name="Prod" xml:space="preserve">
+    <value>Prod./Tjen.</value>
+  </data>
+  <data name="Product" xml:space="preserve">
+    <value>produkt</value>
+  </data>
+  <data name="ProductFSM" xml:space="preserve">
+    <value>Produkt</value>
+  </data>
+  <data name="products" xml:space="preserve">
+    <value>produkter</value>
+  </data>
+  <data name="ProductUpdate" xml:space="preserve">
+    <value>Opdater Produkter</value>
+  </data>
+  <data name="ProductUpdateButtonText" xml:space="preserve">
+    <value>Gennemtving Produktopdatering</value>
+  </data>
+  <data name="ProductUpdateFailed" xml:space="preserve">
+    <value>Produkt Opdatering mislykkedes</value>
+  </data>
+  <data name="Product_name" xml:space="preserve">
+    <value>produktnavn</value>
+  </data>
+  <data name="Product_Type" xml:space="preserve">
+    <value>Produkt</value>
+  </data>
+  <data name="Protocol" xml:space="preserve">
+    <value>Protokol</value>
+  </data>
+  <data name="Public" xml:space="preserve">
+    <value>Offentlig</value>
+  </data>
+  <data name="Public_ip" xml:space="preserve">
+    <value>Offentlig IP</value>
+  </data>
+  <data name="Push_button" xml:space="preserve">
+    <value>Trykknap</value>
+  </data>
+  <data name="Querystring_parameter_portalId_is_required" xml:space="preserve">
+    <value>Querystring parameter "portalId" er påkrævet</value>
+  </data>
+  <data name="Question" xml:space="preserve">
+    <value>Spørgsmål</value>
+  </data>
+  <data name="Random" xml:space="preserve">
+    <value>Tilfældig</value>
+  </data>
+  <data name="Reboot" xml:space="preserve">
+    <value>Genstart</value>
+  </data>
+  <data name="Received_Date" xml:space="preserve">
+    <value>Modtaget</value>
+  </data>
+  <data name="Received_from_the_Creator" xml:space="preserve">
+    <value>Modtaget fra Opretter</value>
+  </data>
+  <data name="Receiver" xml:space="preserve">
+    <value>Modtager</value>
+  </data>
+  <data name="RecipientAddress" xml:space="preserve">
+    <value>Vælg en modtageradresse</value>
+  </data>
+  <data name="Recording_device" xml:space="preserve">
+    <value>Optage enhed</value>
+  </data>
+  <data name="Redirect_port" xml:space="preserve">
+    <value>Omdir. port</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>Opdater</value>
+  </data>
+  <data name="RefreshCache" xml:space="preserve">
+    <value>Ryd cache</value>
+  </data>
+  <data name="RefundMovie" xml:space="preserve">
+    <value>Købet er blevet refunderet</value>
+  </data>
+  <data name="Region" xml:space="preserve">
+    <value>Region</value>
+  </data>
+  <data name="RegistredUserName" xml:space="preserve">
+    <value>Registreret brugernavn</value>
+  </data>
+  <data name="Reject" xml:space="preserve">
+    <value>Afvis</value>
+  </data>
+  <data name="ReleaseIp" xml:space="preserve">
+    <value>Frigiv WAN IP</value>
+  </data>
+  <data name="Remark" xml:space="preserve">
+    <value>Vælg årsagen til afmelding</value>
+  </data>
+  <data name="RemoteSla" xml:space="preserve">
+    <value>Remote SLA</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Fjern</value>
+  </data>
+  <data name="Repair_starts_on" xml:space="preserve">
+    <value>Fejlretningen starter</value>
+  </data>
+  <data name="Replace" xml:space="preserve">
+    <value>Udskift</value>
+  </data>
+  <data name="Replacethe" xml:space="preserve">
+    <value>Udskift til</value>
+  </data>
+  <data name="Replacing_Cable" xml:space="preserve">
+    <value>Udskiftning af Kabel - </value>
+  </data>
+  <data name="Resend" xml:space="preserve">
+    <value>Gensend</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Gendan</value>
+  </data>
+  <data name="Reset_Settings" xml:space="preserve">
+    <value>Gendan til fabriksindstillinger</value>
+  </data>
+  <data name="Reset_to" xml:space="preserve">
+    <value>Nulstil til</value>
+  </data>
+  <data name="resourceType" xml:space="preserve">
+    <value>Resourcetype</value>
+  </data>
+  <data name="Restance" xml:space="preserve">
+    <value>RESTANCE</value>
+  </data>
+  <data name="RestartMessage" xml:space="preserve">
+    <value>Er du sikker pa,at du vil genstarte</value>
+  </data>
+  <data name="Restart_guide" xml:space="preserve">
+    <value>Genstart</value>
+  </data>
+  <data name="Restart_guide_tooltip" xml:space="preserve">
+    <value>Genstart guide</value>
+  </data>
+  <data name="Restore_factory_settings" xml:space="preserve">
+    <value>Gendan fabriksindstillinger</value>
+  </data>
+  <data name="Restore_factory_settings_prompt" xml:space="preserve">
+    <value>Er du sikker på at du vil gendanne fabriksindstillingerne? Alle indstillinger vil blive slettet!</value>
+  </data>
+  <data name="Result" xml:space="preserve">
+    <value>Resultat</value>
+  </data>
+  <data name="Results" xml:space="preserve">
+    <value>Resultater</value>
+  </data>
+  <data name="Resume_guide" xml:space="preserve">
+    <value>Genoptag vejledning</value>
+  </data>
+  <data name="Res_Type" xml:space="preserve">
+    <value>Res.type</value>
+  </data>
+  <data name="RetrievePermissions_ServiceFail" xml:space="preserve">
+    <value>Det er ikke muligt at hente oplysningerne</value>
+  </data>
+  <data name="Retry" xml:space="preserve">
+    <value>Prøv igen</value>
+  </data>
+  <data name="Ring" xml:space="preserve">
+    <value>Ringetid</value>
+  </data>
+  <data name="Rule" xml:space="preserve">
+    <value>regel</value>
+  </data>
+  <data name="Rule_name" xml:space="preserve">
+    <value>Regel navn</value>
+  </data>
+  <data name="Rule_with_alias" xml:space="preserve">
+    <value>Regel med alias</value>
+  </data>
+  <data name="Rule_with_IP" xml:space="preserve">
+    <value>Regel med IP adresse</value>
+  </data>
+  <data name="SalesConcept" xml:space="preserve">
+    <value>salgskoncept</value>
+  </data>
+  <data name="salesforce_order_no" xml:space="preserve">
+    <value>salesforce ordre nr</value>
+  </data>
+  <data name="SalesInfo" xml:space="preserve">
+    <value>Ekspedient</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Gem</value>
+  </data>
+  <data name="SaveChanges" xml:space="preserve">
+    <value>Gem ændringer</value>
+  </data>
+  <data name="SaveMessage_CallForwards1" xml:space="preserve">
+    <value>Du er ved at nulstille kundens opsætning. Viderestilling (v. optaget, manglende svar, slukket/udenfor dækning) vil fremover blive sat til kundens voicemail.</value>
+  </data>
+  <data name="SaveMessage_CallForwards2" xml:space="preserve">
+    <value>Bemærk, mobiler med viderestilling til Visual Voicemail (23500600), vil blive nulstillet til det oprindelige voicemail nummer.
+Ønsker du at fortsætte?</value>
+  </data>
+  <data name="Save_and_overview" xml:space="preserve">
+    <value>Gem og til oversigt</value>
+  </data>
+  <data name="Save_changes" xml:space="preserve">
+    <value>Gem ændringer</value>
+  </data>
+  <data name="Save_current_note" xml:space="preserve">
+    <value>Spare aktuelle note</value>
+  </data>
+  <data name="Save_settings" xml:space="preserve">
+    <value>Gem indstillinger</value>
+  </data>
+  <data name="Save_successMessage" xml:space="preserve">
+    <value>Ændringerne er gemt</value>
+  </data>
+  <data name="Scheduled_Date" xml:space="preserve">
+    <value>planlagt(dag/tid/varighed)</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Søg</value>
+  </data>
+  <data name="SearchEngine_NoRecords" xml:space="preserve">
+    <value>Ingen guider</value>
+  </data>
+  <data name="SearchGuideAndArticles" xml:space="preserve">
+    <value>SearchEngineGA</value>
+  </data>
+  <data name="SearchIn" xml:space="preserve">
+    <value>Søg i</value>
+  </data>
+  <data name="SearchInformation" xml:space="preserve">
+    <value>Søg oplysninger for Central</value>
+  </data>
+  <data name="Search_guides_and_articles" xml:space="preserve">
+    <value>Søg efter guider og artikler</value>
+  </data>
+  <data name="Search_mobile_number" xml:space="preserve">
+    <value>Søg efter abonnement</value>
+  </data>
+  <data name="Security" xml:space="preserve">
+    <value>Sikkerhedsniveau</value>
+  </data>
+  <data name="Security_description" xml:space="preserve">
+    <value>Sikkerhedsbeskrivelse</value>
+  </data>
+  <data name="Seen" xml:space="preserve">
+    <value>Aflyttet</value>
+  </data>
+  <data name="See_activity_log" xml:space="preserve">
+    <value>Se aktivitetslog</value>
+  </data>
+  <data name="See_all_comments" xml:space="preserve">
+    <value>Se alle kommentarer</value>
+  </data>
+  <data name="See_current_operating_information_for_the_customer" xml:space="preserve">
+    <value>Se aktuel driftsinfo for kunde</value>
+  </data>
+  <data name="See_details_for_consumption" xml:space="preserve">
+    <value>Se detaljer for forbrug</value>
+  </data>
+  <data name="See_old_bills" xml:space="preserve">
+    <value>Se gamle regninger</value>
+  </data>
+  <data name="See_solutions_we_can_offer_to_address" xml:space="preserve">
+    <value>Se løsninger vi kan tilbyde på adressen</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Vælg</value>
+  </data>
+  <data name="SelectCustomer" xml:space="preserve">
+    <value>Vælg Kunde</value>
+  </data>
+  <data name="SelectedCentral" xml:space="preserve">
+    <value>valgt central</value>
+  </data>
+  <data name="Selected_number_order" xml:space="preserve">
+    <value>Valgt nummerrækkefølge</value>
+  </data>
+  <data name="SelectEngineeringDepartment" xml:space="preserve">
+    <value>Vælg teknikafdeling</value>
+  </data>
+  <data name="SelectHouseNumber" xml:space="preserve">
+    <value>Vælg Husnr</value>
+    <comment>TREFOR_1.5_DROP_2 :: 1497 :: Ajinkya Korade :: 08052015</comment>
+  </data>
+  <data name="SelectMobileSubscription" xml:space="preserve">
+    <value>Vælg abonnement</value>
+  </data>
+  <data name="SelectMsgType" xml:space="preserve">
+    <value>Vælg indemeldingstype</value>
+  </data>
+  <data name="Select_Floor" xml:space="preserve">
+    <value>Etage/Side</value>
+    <comment>Ajinkya</comment>
+  </data>
+  <data name="select_network" xml:space="preserve">
+    <value>Vælg netværk</value>
+  </data>
+  <data name="Select_type_of_appointment" xml:space="preserve">
+    <value>Aftaleseddel Privat Grund</value>
+  </data>
+  <data name="SelfService" xml:space="preserve">
+    <value>Selvbetjening</value>
+  </data>
+  <data name="SendActivationPinCode" xml:space="preserve">
+    <value>Send ny aktiverings SMS</value>
+  </data>
+  <data name="SendCableOvercall" xml:space="preserve">
+    <value>Send Kabel indmelding</value>
+  </data>
+  <data name="SendNewPasswordDisplayedOnSMS" xml:space="preserve">
+    <value>Send ny adgangskode pâ SMS</value>
+  </data>
+  <data name="SendNytPasswordViaEmail" xml:space="preserve">
+    <value>Send ny adgangskode via e-mail</value>
+  </data>
+  <data name="SendNytPasswordViaLetter" xml:space="preserve">
+    <value>Send loginoplysninger på brev</value>
+  </data>
+  <data name="SendNytPasswordViaSms" xml:space="preserve">
+    <value>Send ny adgangskode via sms</value>
+  </data>
+  <data name="SendOvercall" xml:space="preserve">
+    <value>Send Indmelding</value>
+  </data>
+  <data name="Send_email" xml:space="preserve">
+    <value>Send email</value>
+  </data>
+  <data name="Send_message_to_email" xml:space="preserve">
+    <value>Send Besked til email</value>
+  </data>
+  <data name="Send_new_pin_by_sms" xml:space="preserve">
+    <value>Send ny pinkode</value>
+  </data>
+  <data name="Send_pasword_via_Sms" xml:space="preserve">
+    <value>Send nyt adgangskode via SMS</value>
+  </data>
+  <data name="Sequential_order" xml:space="preserve">
+    <value>Rækkefølge</value>
+  </data>
+  <data name="Server_error" xml:space="preserve">
+    <value>Serverfejl</value>
+  </data>
+  <data name="service" xml:space="preserve">
+    <value>Serviceaftale</value>
+  </data>
+  <data name="ServiceConditions" xml:space="preserve">
+    <value>Serviceforhold</value>
+  </data>
+  <data name="Service_info" xml:space="preserve">
+    <value>tjeneste information</value>
+  </data>
+  <data name="Set" xml:space="preserve">
+    <value>sæt</value>
+  </data>
+  <data name="SetActiveVVMActivationStatus" xml:space="preserve">
+    <value>Aktiver</value>
+  </data>
+  <data name="SetConsumptionLimit" xml:space="preserve">
+    <value>Indtast nyt forbrugsmaks i kr.</value>
+  </data>
+  <data name="SetInactiveVVMActivationStatus" xml:space="preserve">
+    <value>Deaktivers</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>indstillinger</value>
+  </data>
+  <data name="SettingsSavedChangesWillApplyLater" xml:space="preserve">
+    <value>Indstillinger er blevet gemt, ændringer vil gælde i et par minutter.</value>
+  </data>
+  <data name="Settings_Saved" xml:space="preserve">
+    <value>Indstillinger blev gemt</value>
+  </data>
+  <data name="Set_error_code" xml:space="preserve">
+    <value>Sæt fejlkode</value>
+  </data>
+  <data name="Set_pinkode" xml:space="preserve">
+    <value>Sæt pinkode</value>
+  </data>
+  <data name="Set_status_to_selected" xml:space="preserve">
+    <value>Sæt status på markerede</value>
+  </data>
+  <data name="Set_test_speed" xml:space="preserve">
+    <value>Indstil Testhastighed</value>
+  </data>
+  <data name="Set_to" xml:space="preserve">
+    <value>Sæt til</value>
+  </data>
+  <data name="Set_Us_Bonding_Failed" xml:space="preserve">
+    <value>Indstilling af us bonding mislykkedes</value>
+  </data>
+  <data name="shift_technician" xml:space="preserve">
+    <value>Skift tekniker</value>
+  </data>
+  <data name="Show" xml:space="preserve">
+    <value>Vis</value>
+  </data>
+  <data name="Show_guide" xml:space="preserve">
+    <value>Vis guide</value>
+  </data>
+  <data name="Show_guides_steps" xml:space="preserve">
+    <value>Vis guide trin</value>
+  </data>
+  <data name="Show_previous_answers" xml:space="preserve">
+    <value>Vis tidligere svar</value>
+  </data>
+  <data name="Site_Agreement_Requisition" xml:space="preserve">
+    <value>TDC Anlægsaftale / Rekvisition </value>
+  </data>
+  <data name="Size" xml:space="preserve">
+    <value>Størrelse</value>
+  </data>
+  <data name="Sla" xml:space="preserve">
+    <value>Service Streng</value>
+  </data>
+  <data name="SlaForDebugging" xml:space="preserve">
+    <value>SLA for fejlretning</value>
+  </data>
+  <data name="Sleeve" xml:space="preserve">
+    <value>Muffe</value>
+  </data>
+  <data name="Sms" xml:space="preserve">
+    <value>SMS</value>
+  </data>
+  <data name="SMS_desired" xml:space="preserve">
+    <value>SMS ønskes</value>
+  </data>
+  <data name="SMS_number" xml:space="preserve">
+    <value>SMS nummer</value>
+  </data>
+  <data name="SMTP_access" xml:space="preserve">
+    <value>SMTP adgang</value>
+  </data>
+  <data name="SocketAddress" xml:space="preserve">
+    <value>stikadresse</value>
+  </data>
+  <data name="Song" xml:space="preserve">
+    <value>Song</value>
+  </data>
+  <data name="Sound_level" xml:space="preserve">
+    <value>Lydniveau</value>
+  </data>
+  <data name="Specification" xml:space="preserve">
+    <value>Specifikation</value>
+  </data>
+  <data name="specMark" xml:space="preserve">
+    <value>Specialmarkering</value>
+  </data>
+  <data name="SpeedCalculator" xml:space="preserve">
+    <value>Bredbåndsberegner</value>
+  </data>
+  <data name="Speed_locked" xml:space="preserve">
+    <value>Hastighedslåst</value>
+  </data>
+  <data name="Standard" xml:space="preserve">
+    <value>standard</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>Fra</value>
+  </data>
+  <data name="Started" xml:space="preserve">
+    <value>Påbegyndt</value>
+  </data>
+  <data name="StartGuide" xml:space="preserve">
+    <value>Start en guide</value>
+  </data>
+  <data name="startTime" xml:space="preserve">
+    <value>starttid</value>
+  </data>
+  <data name="Start_date" xml:space="preserve">
+    <value>Startdato</value>
+  </data>
+  <data name="Start_ip_address" xml:space="preserve">
+    <value>Start IP adresser</value>
+  </data>
+  <data name="Static" xml:space="preserve">
+    <value>Statisk</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Status_of_total_consumption_excl_subscription" xml:space="preserve">
+    <value>Status på samlet forbrug ekskl. abonnement</value>
+  </data>
+  <data name="Status_updated_successfully" xml:space="preserve">
+    <value>Status opdateret med succes</value>
+  </data>
+  <data name="Status_update_on" xml:space="preserve">
+    <value>Statusopdatering på</value>
+  </data>
+  <data name="StikCable_Cancel" xml:space="preserve">
+    <value>Annuller</value>
+  </data>
+  <data name="StikCable_Create" xml:space="preserve">
+    <value>Opret</value>
+  </data>
+  <data name="StikCable_Remove" xml:space="preserve">
+    <value>Fjern</value>
+  </data>
+  <data name="StikCable_Update" xml:space="preserve">
+    <value>Opdater</value>
+  </data>
+  <data name="Stiknode_name" xml:space="preserve">
+    <value>Stik node navn</value>
+  </data>
+  <data name="Stik_Distributor" xml:space="preserve">
+    <value>Fordeler</value>
+  </data>
+  <data name="Street" xml:space="preserve">
+    <value>Gade</value>
+  </data>
+  <data name="StreetName" xml:space="preserve">
+    <value>Vejnavn</value>
+  </data>
+  <data name="Street_RoadName_Housenumber" xml:space="preserve">
+    <value>Gade-/Vejnavn Husnr</value>
+  </data>
+  <data name="String" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>Eksisterende portforward regler</value>
+  </data>
+  <data name="Strong" xml:space="preserve">
+    <value>Stærk</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>Emne</value>
+  </data>
+  <data name="SubmitDeleteMessage" xml:space="preserve">
+    <value>Du fjern hermed brugerens tilkynytning til kundens tjenester samt de adgange brugeren har gvet videre.</value>
+  </data>
+  <data name="SubmitDeleteMessageTitle" xml:space="preserve">
+    <value>Fjern tilknytning</value>
+  </data>
+  <data name="SubmitDenySelfServiceMessage" xml:space="preserve">
+    <value>Du fjerner hermed brugerens tilknytning til selvbetjening for loginet </value>
+  </data>
+  <data name="SubmitDenySelfServiceTitle" xml:space="preserve">
+    <value>Fjern selvbetjening</value>
+  </data>
+  <data name="Subnet_mask" xml:space="preserve">
+    <value>Subnet mask</value>
+  </data>
+  <data name="subscriber_null_error" xml:space="preserve">
+    <value>Kunden har ingen Homebox registreret/tilsluttet</value>
+  </data>
+  <data name="SuccesfullyRemovedSubUserFromUserProfile" xml:space="preserve">
+    <value>Underbrugeren blev fjernet</value>
+  </data>
+  <data name="SwitchEquipment" xml:space="preserve">
+    <value>Skift udstyr</value>
+  </data>
+  <data name="System" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="System_status" xml:space="preserve">
+    <value>System status</value>
+  </data>
+  <data name="TakeOver" xml:space="preserve">
+    <value>Overtag</value>
+  </data>
+  <data name="Take_Number" xml:space="preserve">
+    <value>træffenummer</value>
+  </data>
+  <data name="TdcFilm" xml:space="preserve">
+    <value>TDC - Film</value>
+  </data>
+  <data name="TdcPlay" xml:space="preserve">
+    <value>TDC - Play</value>
+  </data>
+  <data name="Technician" xml:space="preserve">
+    <value>Tekniker</value>
+  </data>
+  <data name="TechnicianHours" xml:space="preserve">
+    <value>Teknikertimer</value>
+  </data>
+  <data name="Technician_mobile" xml:space="preserve">
+    <value>tekniker (mobil)</value>
+  </data>
+  <data name="Technician_name" xml:space="preserve">
+    <value>Tekniker navn</value>
+  </data>
+  <data name="technician_phone" xml:space="preserve">
+    <value>tekniker (telefon)</value>
+  </data>
+  <data name="Technician_queue" xml:space="preserve">
+    <value>Fejlkø</value>
+  </data>
+  <data name="Technique" xml:space="preserve">
+    <value>Teknik</value>
+  </data>
+  <data name="TechnitiansRebooked" xml:space="preserve">
+    <value>Teknikerbesøget er blevet flyttet</value>
+  </data>
+  <data name="Telephone" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="TelephoneNo" xml:space="preserve">
+    <value>Telefonnr.</value>
+  </data>
+  <data name="termination_Cause" xml:space="preserve">
+    <value>OphØrsårsag</value>
+  </data>
+  <data name="Test_speed" xml:space="preserve">
+    <value>Testhastighed</value>
+  </data>
+  <data name="TextToCommentCopiedFromNote" xml:space="preserve">
+    <value>Tekst til at kommentere område wil kopieres fra note tekstområde</value>
+  </data>
+  <data name="ThereAreNoEtrayDocuments" xml:space="preserve">
+    <value>Der er ingen eTray dokumenter</value>
+  </data>
+  <data name="ThereAreNoFasoRecords" xml:space="preserve">
+    <value>Der er ingen FAS ordrer</value>
+  </data>
+  <data name="ThereIsNotInternetNr" xml:space="preserve">
+    <value>Intet nummer</value>
+  </data>
+  <data name="There_are_no_sessions" xml:space="preserve">
+    <value>Der er ingen sessioner</value>
+  </data>
+  <data name="There_are_no_steps" xml:space="preserve">
+    <value>Der er ingen trin</value>
+  </data>
+  <data name="The_account_is" xml:space="preserve">
+    <value>Kontoen er</value>
+  </data>
+  <data name="The_activity" xml:space="preserve">
+    <value>Aktiviteten</value>
+  </data>
+  <data name="The_error" xml:space="preserve">
+    <value>Fejlen</value>
+  </data>
+  <data name="Threre_are_no_items" xml:space="preserve">
+    <value>Der er ingen elementer</value>
+  </data>
+  <data name="Tiles" xml:space="preserve">
+    <value>Fliser</value>
+  </data>
+  <data name="Til_Number" xml:space="preserve">
+    <value>Til nummer</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Tid</value>
+  </data>
+  <data name="time_closed" xml:space="preserve">
+    <value>Tid lukket</value>
+  </data>
+  <data name="time_completed" xml:space="preserve">
+    <value>Tid afsluttet</value>
+  </data>
+  <data name="time_resolved" xml:space="preserve">
+    <value>Tid afhjulpet</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>Til</value>
+  </data>
+  <data name="Toggle_navigation" xml:space="preserve">
+    <value>Toggle navigation</value>
+  </data>
+  <data name="TooEdit_Nodecomments" xml:space="preserve">
+    <value>Node bemærkning (IN)</value>
+  </data>
+  <data name="ToolActimo" xml:space="preserve">
+    <value>Hjælpevideoer/guides</value>
+  </data>
+  <data name="ToolActimoHelpGuides" xml:space="preserve">
+    <value>Hjælpeguides</value>
+  </data>
+  <data name="ToolAutocard_Done" xml:space="preserve">
+    <value>Færdig</value>
+  </data>
+  <data name="ToolAutocard_RegistrationDescription" xml:space="preserve">
+    <value>Med Automatisk Kortbetaling bliver din regning betalt automatisk.</value>
+  </data>
+  <data name="ToolAutocard_RegistrationdHeader" xml:space="preserve">
+    <value>Automatisk kortbetaling:</value>
+  </data>
+  <data name="ToolAutocard_RegistrationInfo" xml:space="preserve">
+    <value>Konto er tilmeldt Automatisk Kortbetaling med dette kort:</value>
+  </data>
+  <data name="ToolAutoCard_SignUp" xml:space="preserve">
+    <value>Tilmeld</value>
+  </data>
+  <data name="ToolAutoCard_UpdateCardInformation" xml:space="preserve">
+    <value>Opdatér kortoplysninger</value>
+  </data>
+  <data name="ToolAutoCard_UpdateHeader" xml:space="preserve">
+    <value>Betalingskort</value>
+  </data>
+  <data name="ToolAutocard_UpdateRegistrationHeader" xml:space="preserve">
+    <value>Konto er tilmeldt Automatisk Kortbetaling med kortnr.</value>
+  </data>
+  <data name="ToolAutomaticNoteDeleteMessage" xml:space="preserve">
+    <value>Er du sikker på at du vil slette noten?</value>
+  </data>
+  <data name="ToolAvailableFreecord_Equipment" xml:space="preserve">
+    <value>Enhed</value>
+  </data>
+  <data name="ToolBarCodeGeneratorTitle" xml:space="preserve">
+    <value>Stregkode</value>
+  </data>
+  <data name="ToolBillingDetails" xml:space="preserve">
+    <value>Regningsoverblik</value>
+  </data>
+  <data name="ToolBillingDetails_CardSignUp" xml:space="preserve">
+    <value>Tilmeld kortbetaling</value>
+  </data>
+  <data name="ToolBillingDetails_UpdateCardLink" xml:space="preserve">
+    <value>Opdatér Kortnummer:</value>
+  </data>
+  <data name="ToolCallForwards" xml:space="preserve">
+    <value>Viderestillinger (Mobil og BBT)</value>
+  </data>
+  <data name="ToolCallForwards_Genric_ErrorMessage" xml:space="preserve">
+    <value>Værktøjet understøtter ikke det indtastede LID. Vi kan ikke registrere noget telefonnummer på abonnementet. Tjek kundens abonnement. Bemærk, værktøjet understøtter ikke PSTN/ISDN linjer</value>
+  </data>
+  <data name="ToolCallForwards_RingTimeSuccessMessage" xml:space="preserve">
+    <value>Ændringen er udført. Det kan tage lidt tid inden ændringen slår igennem</value>
+  </data>
+  <data name="ToolCallForward_FailureMessage" xml:space="preserve">
+    <value>Det er ikke muligt at hente oplysninger på dette LID. Værktøjet håndterer ikke PSTN/ISDN linjer</value>
+  </data>
+  <data name="ToolConsumption" xml:space="preserve">
+    <value>Forbrug</value>
+  </data>
+  <data name="ToolConsumption_NoMobileNosFound" xml:space="preserve">
+    <value>Der blev ikke fundet nogen telefonnumre</value>
+  </data>
+  <data name="ToolCuCommentsDetails" xml:space="preserve">
+    <value>Columbus Bemærkninger</value>
+  </data>
+  <data name="ToolCustomerOrderDetails" xml:space="preserve">
+    <value>Kundeordredetaljer</value>
+  </data>
+  <data name="ToolCustomerOverviewAdmin" xml:space="preserve">
+    <value>Administrer addon produkter i husstandsoverblik</value>
+  </data>
+  <data name="ToolDkpAdminService_Header_Format" xml:space="preserve">
+    <value>Tjenesteadministration for {0}</value>
+  </data>
+  <data name="ToolEditDeliveryCord_AvailablePositions" xml:space="preserve">
+    <value>Tilgængelige positioner</value>
+  </data>
+  <data name="ToolEditDeliveryCord_CommentsForPosition" xml:space="preserve">
+    <value>Bemærkning for position:</value>
+  </data>
+  <data name="ToolEditDeliveryCord_CopyToClipboard" xml:space="preserve">
+    <value>Kopier til udklipsholder</value>
+  </data>
+  <data name="ToolEditDeliveryCord_CrossConnection" xml:space="preserve">
+    <value> Krydstråd kommentar</value>
+  </data>
+  <data name="ToolEditDeliveryCord_CrossConnectionCommentFromCustomerSide" xml:space="preserve">
+    <value>Krydstråd kommentar fra linje side</value>
+  </data>
+  <data name="ToolEditDeliveryCord_CrossConnectionCommentFromNewPosition" xml:space="preserve">
+    <value>Krydstråd kommentar fra ny position (central side)</value>
+  </data>
+  <data name="ToolEditDeliveryCord_EndPosition" xml:space="preserve">
+    <value>Slut position</value>
+  </data>
+  <data name="ToolEditDeliveryCord_EndPositionComment" xml:space="preserve">
+    <value>Slut position bemærkning</value>
+  </data>
+  <data name="ToolEditDeliveryCord_OldPositionComment" xml:space="preserve">
+    <value>Gammel positions kommentar</value>
+  </data>
+  <data name="ToolEditDeliveryCord_OldPositionStatusChange" xml:space="preserve">
+    <value>Ændring af status for gammel position</value>
+  </data>
+  <data name="ToolEditDeliveryCord_SearchPosition" xml:space="preserve">
+    <value>Søg ny position</value>
+  </data>
+  <data name="ToolEditDeliveryCord_StartPosition" xml:space="preserve">
+    <value>Start position</value>
+  </data>
+  <data name="ToolEditDeliveryCord_StartPositionComments" xml:space="preserve">
+    <value>Start position bemærkning (IN)</value>
+  </data>
+  <data name="ToolEditDeliveryCord_update" xml:space="preserve">
+    <value>Opdater</value>
+  </data>
+  <data name="ToolEdit_Address" xml:space="preserve">
+    <value>Adresse</value>
+  </data>
+  <data name="ToolEdit_Comments" xml:space="preserve">
+    <value>bemærkning</value>
+  </data>
+  <data name="ToolEdit_ConnectionpathComments" xml:space="preserve">
+    <value>Koblingsbillede bemærkning (KB)</value>
+  </data>
+  <data name="ToolEdit_Crossconcomments" xml:space="preserve">
+    <value>Krydstråd kommentar</value>
+  </data>
+  <data name="ToolEdit_DBcomments" xml:space="preserve">
+    <value>Kabel bemærkninger (KAB)</value>
+  </data>
+  <data name="ToolEdit_FindAlternative" xml:space="preserve">
+    <value>Ikke i brug</value>
+  </data>
+  <data name="ToolEdit_Ordercomments" xml:space="preserve">
+    <value>Ordre bemærkning (OBEM)</value>
+  </data>
+  <data name="ToolEdit_Positioncomments" xml:space="preserve">
+    <value>Position bemærkning (BE via SK)</value>
+  </data>
+  <data name="ToolemailSend_Add_Email_ID" xml:space="preserve">
+    <value>Tilføj flere e-mail (c.c. modtager)</value>
+  </data>
+  <data name="ToolemailSend_affected_services" xml:space="preserve">
+    <value>Berørte Services</value>
+  </data>
+  <data name="ToolemailSend_Area" xml:space="preserve">
+    <value>Område</value>
+  </data>
+  <data name="ToolemailSend_Date" xml:space="preserve">
+    <value>Dato</value>
+  </data>
+  <data name="ToolemailSend_Impact" xml:space="preserve">
+    <value>Berørte brugere</value>
+  </data>
+  <data name="ToolemailSend_Provide_detailed_description" xml:space="preserve">
+    <value>Beskrivelse af fejlen</value>
+  </data>
+  <data name="ToolemailSend_Subarea" xml:space="preserve">
+    <value>delområde</value>
+  </data>
+  <data name="ToolemailSend_Title" xml:space="preserve">
+    <value>Overskrift</value>
+  </data>
+  <data name="ToolemailSend_Tool_Name" xml:space="preserve">
+    <value>Tool navn</value>
+  </data>
+  <data name="ToolemailSend_User_Name" xml:space="preserve">
+    <value>Bruger Id</value>
+  </data>
+  <data name="ToolEtray" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TooletrayAftaleseddel" xml:space="preserve">
+    <value>Aftaleseddel</value>
+  </data>
+  <data name="TooletrayBicycle_paths" xml:space="preserve">
+    <value>Cykelsti</value>
+  </data>
+  <data name="TooletrayBy" xml:space="preserve">
+    <value>By</value>
+  </data>
+  <data name="TooletrayCarriageway" xml:space="preserve">
+    <value>Midterrabat</value>
+  </data>
+  <data name="TooletrayCentralfork" xml:space="preserve">
+    <value>Centralfork.:</value>
+  </data>
+  <data name="TooletrayCrosssection" xml:space="preserve">
+    <value>Tværprofil</value>
+  </data>
+  <data name="TooletrayEksist_opgravning" xml:space="preserve">
+    <value>Eksist. opgravning</value>
+  </data>
+  <data name="TooletrayExplanationCrosssection" xml:space="preserve">
+    <value>Forklaring -
+    Tværprofil</value>
+  </data>
+  <data name="TooletrayFasonr" xml:space="preserve">
+    <value>Fasonr.</value>
+  </data>
+  <data name="ToolEtrayForms" xml:space="preserve">
+    <value>Formularer</value>
+  </data>
+  <data name="ToolEtrayForms_Area" xml:space="preserve">
+    <value>Formular</value>
+  </data>
+  <data name="ToolEtrayForms_Category" xml:space="preserve">
+    <value>Kategori</value>
+  </data>
+  <data name="ToolEtrayForms_IncidentId" xml:space="preserve">
+    <value>Incident ID</value>
+  </data>
+  <data name="ToolEtrayForms_OpenForm" xml:space="preserve">
+    <value>Åben</value>
+  </data>
+  <data name="TooletrayFortrydGravetype" xml:space="preserve">
+    <value>Fortryd Gravetype</value>
+  </data>
+  <data name="TooletrayFurthermore_Discount" xml:space="preserve">
+    <value>Yderrabat</value>
+  </data>
+  <data name="ToolEtrayGravested" xml:space="preserve">
+    <value>Gravested</value>
+  </data>
+  <data name="ToolEtrayGravested1" xml:space="preserve">
+    <value>Gravested 1:</value>
+  </data>
+  <data name="TooletrayGravetype" xml:space="preserve">
+    <value>Gravetype</value>
+  </data>
+  <data name="TooletrayGrave_Address" xml:space="preserve">
+    <value>Graveadresse 1*</value>
+  </data>
+  <data name="TooletrayHome_verge" xml:space="preserve">
+    <value>Indreskillerabat</value>
+  </data>
+  <data name="TooletrayIngen_gravning" xml:space="preserve">
+    <value>Ingen gravning (Timeydelse)</value>
+  </data>
+  <data name="TooletrayNone" xml:space="preserve">
+    <value>Ingen</value>
+  </data>
+  <data name="TooletrayOffentligvej" xml:space="preserve">
+    <value>Offentlig vej</value>
+  </data>
+  <data name="TooletrayOuter_verge" xml:space="preserve">
+    <value>Ydreskillerabat</value>
+  </data>
+  <data name="Tooletraypostnr" xml:space="preserve">
+    <value>Postnr.</value>
+  </data>
+  <data name="ToolEtrayPrivat_grund" xml:space="preserve">
+    <value>Privat grund</value>
+  </data>
+  <data name="TooletrayP_Area" xml:space="preserve">
+    <value>P-Areal</value>
+  </data>
+  <data name="TooletrayRoadway" xml:space="preserve">
+    <value>Kørebane</value>
+  </data>
+  <data name="TooletrayRough" xml:space="preserve">
+    <value>Grøft</value>
+  </data>
+  <data name="TooletraySidewalk" xml:space="preserve">
+    <value>Fortov</value>
+  </data>
+  <data name="TooletrayStatsvej" xml:space="preserve">
+    <value>Statsvej</value>
+  </data>
+  <data name="TooletrayTDCAftaleseddel" xml:space="preserve">
+    <value>TDC Aftaleseddel</value>
+  </data>
+  <data name="TooletrayThe_house_no" xml:space="preserve">
+    <value>Til husnr.</value>
+  </data>
+  <data name="TooletrayUdforendeentreprenor" xml:space="preserve">
+    <value>Udførende entreprenør</value>
+  </data>
+  <data name="Tooletrayvaelg" xml:space="preserve">
+    <value>Vaelg</value>
+  </data>
+  <data name="TooletrayVejalen" xml:space="preserve">
+    <value>Vejalen</value>
+  </data>
+  <data name="ToolEtray_Asphalt_Concrete" xml:space="preserve">
+    <value>Asfalt/Beton:</value>
+  </data>
+  <data name="Tooletray_Construction_Line_Area" xml:space="preserve">
+    <value>Byggelinieareal</value>
+  </data>
+  <data name="Tooletray_Digging_digging_site" xml:space="preserve">
+    <value>Gravere - gravested</value>
+  </data>
+  <data name="ToolEtray_Dinner_held" xml:space="preserve">
+    <value>Middag  afholdt</value>
+  </data>
+  <data name="ToolEtray_End_date_time" xml:space="preserve">
+    <value>Slutdato+tid:</value>
+  </data>
+  <data name="Tooletray_Engraved_Id" xml:space="preserve">
+    <value>GraverID:</value>
+  </data>
+  <data name="Tooletray_Fast_lodged_own" xml:space="preserve">
+    <value>Fast indlejet</value>
+  </data>
+  <data name="Tooletray_For_miles_stone" xml:space="preserve">
+    <value>Til km sten </value>
+  </data>
+  <data name="ToolEtray_For_priming_running_meter" xml:space="preserve">
+    <value>Opmåling Lb.m.</value>
+  </data>
+  <data name="Tooletray_From_house_number" xml:space="preserve">
+    <value>Fra husnr.</value>
+  </data>
+  <data name="Tooletray_From_km_stone" xml:space="preserve">
+    <value>Fra km sten </value>
+  </data>
+  <data name="ToolEtray_Hourly_wage" xml:space="preserve">
+    <value>Timeløn:</value>
+  </data>
+  <data name="ToolEtray_Lawn_Alm_jord" xml:space="preserve">
+    <value>Plæne/Alm.jord</value>
+  </data>
+  <data name="ToolEtray_Male_excl_trolley_and_tool" xml:space="preserve">
+    <value>Mand eksl. vogn og værktøj</value>
+  </data>
+  <data name="ToolEtray_Male_incl_trolley_and_tool" xml:space="preserve">
+    <value>Mand inkl. vogn og værktøj</value>
+  </data>
+  <data name="Tooletray_Possibly_BemaeKning" xml:space="preserve">
+    <value>Evt. bemærkning</value>
+  </data>
+  <data name="Tooletray_Size_m" xml:space="preserve">
+    <value>Størrelse m</value>
+  </data>
+  <data name="ToolEtray_Solve_coating" xml:space="preserve">
+    <value>Løs belægning:</value>
+  </data>
+  <data name="ToolEtray_Start_date_time" xml:space="preserve">
+    <value>Startdato+tid:</value>
+  </data>
+  <data name="Tooletray_State_route_road_number" xml:space="preserve">
+    <value>Statsvej - vejnummer</value>
+  </data>
+  <data name="ToolEtray_Stone_Cobbels" xml:space="preserve">
+    <value>Fliser/brosten</value>
+  </data>
+  <data name="Tooletray_Summoned" xml:space="preserve">
+    <value>Tilkaldt</value>
+  </data>
+  <data name="Tooletray_Timelon" xml:space="preserve">
+    <value>Timeløn</value>
+  </data>
+  <data name="ToolFAS_SMS" xml:space="preserve">
+    <value>SMS - FAS</value>
+  </data>
+  <data name="ToolFejiInstrument_Activity" xml:space="preserve">
+    <value>Aktivitet</value>
+  </data>
+  <data name="ToolFejiInstrument_Describe_error" xml:space="preserve">
+    <value>Describe error</value>
+  </data>
+  <data name="ToolFejiInstrument_Dispatched_rep" xml:space="preserve">
+    <value>Afsendt til rep.</value>
+  </data>
+  <data name="ToolFejiInstrument_Instrument" xml:space="preserve">
+    <value>Instrumenter</value>
+  </data>
+  <data name="ToolFejiInstrument_Instrument_sends_to" xml:space="preserve">
+    <value>Instrument sendes til:</value>
+  </data>
+  <data name="ToolFejiInstrument_Instrument_Tools" xml:space="preserve">
+    <value>Instrumenter</value>
+  </data>
+  <data name="ToolFejiInstrument_Instrument_Tools_posted_to_rep" xml:space="preserve">
+    <value>Instrument /Værktøj indsendt til rep.</value>
+  </data>
+  <data name="ToolFejiInstrument_Note" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ToolFejiInstrument_periodic_error" xml:space="preserve">
+    <value>Periodisk fejl</value>
+  </data>
+  <data name="ToolFejiInstrument_Price_Estimate_desired" xml:space="preserve">
+    <value>Prisoverslag ønskes</value>
+  </data>
+  <data name="ToolFejiInstrument_Sendsoptions" xml:space="preserve">
+    <value>Hvad sender du? </value>
+  </data>
+  <data name="ToolFejiInstrument_Serial" xml:space="preserve">
+    <value>Serienummer</value>
+  </data>
+  <data name="ToolFejiInstrument_Shipping_addr_after_rep" xml:space="preserve">
+    <value>Forsendelses adr. efter rep.</value>
+  </data>
+  <data name="ToolFejiInstrument_species" xml:space="preserve">
+    <value>Art</value>
+  </data>
+  <data name="ToolFejiInstrument_TDC_Logistics_Center" xml:space="preserve">
+    <value>TDC Logistik Center.</value>
+  </data>
+  <data name="ToolFejiInstrument_Tools" xml:space="preserve">
+    <value>Værktøj</value>
+  </data>
+  <data name="ToolGalvanicMeasurement" xml:space="preserve">
+    <value>Galvanisk måling</value>
+  </data>
+  <data name="ToolGeneralActionMessage" xml:space="preserve">
+    <value>Agent log – værktøj</value>
+  </data>
+  <data name="ToolHouseHoldDetails" xml:space="preserve">
+    <value>Husstandsoversigt</value>
+  </data>
+  <data name="ToolHousehold_ViewAllPrice" xml:space="preserve">
+    <value>Vis priser</value>
+  </data>
+  <data name="ToolHousehold_ViewProductPrice" xml:space="preserve">
+    <value>Vis pris</value>
+  </data>
+  <data name="ToolKpmAccountSettings_Email" xml:space="preserve">
+    <value>email</value>
+  </data>
+  <data name="ToolKpmAccountSettings_KpmNumber" xml:space="preserve">
+    <value>Kundenummer/Kontonr.</value>
+  </data>
+  <data name="ToolLink_Amplifiers" xml:space="preserve">
+    <value>Forstærkere</value>
+  </data>
+  <data name="ToolLink_CSAM" xml:space="preserve">
+    <value>CSAM</value>
+  </data>
+  <data name="ToolLink_MDB" xml:space="preserve">
+    <value>Masterdatabasen</value>
+  </data>
+  <data name="ToolLink_Modem" xml:space="preserve">
+    <value>Modemoversigt</value>
+  </data>
+  <data name="ToolLink_Title" xml:space="preserve">
+    <value>Links</value>
+  </data>
+  <data name="ToolMyCompletedOrders" xml:space="preserve">
+    <value>MyWork Historik</value>
+  </data>
+  <data name="ToolMyOrder" xml:space="preserve">
+    <value>Mine Aktive Ordrer</value>
+  </data>
+  <data name="ToolNavigationalLinkActive" xml:space="preserve">
+    <value>Aktiv</value>
+  </data>
+  <data name="ToolNavigationalLinkMessage" xml:space="preserve">
+    <value>Er du sikker på, du vil slette linket?</value>
+  </data>
+  <data name="ToolNavigationalLinks" xml:space="preserve">
+    <value>Linkadministration</value>
+  </data>
+  <data name="ToolNavigationalLinksName" xml:space="preserve">
+    <value>Navn</value>
+  </data>
+  <data name="ToolNavigationalLinksPosition" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="ToolNavigationalLinksPositionRight" xml:space="preserve">
+    <value>højre</value>
+  </data>
+  <data name="ToolNavigationalLinksPositionTop" xml:space="preserve">
+    <value>top</value>
+  </data>
+  <data name="ToolNavigationalLinksUrl" xml:space="preserve">
+    <value>Link URL</value>
+  </data>
+  <data name="ToolNetworkAnalyzer" xml:space="preserve">
+    <value>Network Analyzer</value>
+  </data>
+  <data name="ToolNetworkAnalyzerConfidence" xml:space="preserve">
+    <value>Sikkerhed</value>
+  </data>
+  <data name="ToolNetworkAnalyzerDELTEstimateDistance" xml:space="preserve">
+    <value>DELT estimeret linjelængde</value>
+  </data>
+  <data name="ToolNetworkAnalyzerDiagnosis" xml:space="preserve">
+    <value>Diagnoser</value>
+  </data>
+  <data name="ToolNetworkAnalyzerGraphs" xml:space="preserve">
+    <value>Grafer</value>
+  </data>
+  <data name="ToolNetworkAnalyzerLineLength" xml:space="preserve">
+    <value>Linjelængde</value>
+  </data>
+  <data name="ToolNetworkAnalyzerLineUpErrorMessage" xml:space="preserve">
+    <value>Linjen er oppe, og der kan derfor ikke foretages en SELT-måling</value>
+  </data>
+  <data name="ToolNetworkAnalyzerLocation" xml:space="preserve">
+    <value>Lokation</value>
+  </data>
+  <data name="ToolNetworkAnalyzerPopUpMessage" xml:space="preserve">
+    <value>Beregningen af linjelængden tager 2 minutter at udføre.</value>
+  </data>
+  <data name="ToolNetworkAnalyzerSELTEstimateDistance" xml:space="preserve">
+    <value>SELT estimeret linjelængde</value>
+  </data>
+  <data name="ToolNetworkAnalyzerSELTMessage" xml:space="preserve">
+    <value>Der er ikke SELT data tilgængeligt</value>
+  </data>
+  <data name="ToolNetworkAnalyzerStartButton" xml:space="preserve">
+    <value>Beregn</value>
+  </data>
+  <data name="ToolNetworkAnalyzerStartDate" xml:space="preserve">
+    <value>Måling startet</value>
+  </data>
+  <data name="ToolNetworkAnalyzerWirePair" xml:space="preserve">
+    <value>Trådpar</value>
+  </data>
+  <data name="ToolOperationalInfo_DriksUrl" xml:space="preserve">
+    <value>Åben DRIKS</value>
+  </data>
+  <data name="ToolOperationalInfo_ExpectedEndDate" xml:space="preserve">
+    <value>Forventet slut:</value>
+  </data>
+  <data name="ToolOperationalInfo_Heading" xml:space="preserve">
+    <value>Overskrift</value>
+  </data>
+  <data name="ToolOperationalInfo_Note" xml:space="preserve">
+    <value>Notat:</value>
+  </data>
+  <data name="ToolOperationalInfo_StartDate" xml:space="preserve">
+    <value>Starttid:</value>
+  </data>
+  <data name="ToolOperationInfo_ErrorMessage" xml:space="preserve">
+    <value>Kunden er ikke omfattet af nogen driftsinfo.</value>
+  </data>
+  <data name="ToolOperationInfo_Title" xml:space="preserve">
+    <value>Driftsinfo</value>
+  </data>
+  <data name="ToolOSSTActivation" xml:space="preserve">
+    <value>Port skift xDSL</value>
+  </data>
+  <data name="ToolOSSTActivation_Port_move_success" xml:space="preserve">
+    <value>Portflytning er nu igangsat, for status tryk på blå ”opdater” knap</value>
+  </data>
+  <data name="ToolOVFasodetails" xml:space="preserve">
+    <value>Afledte Fejl</value>
+  </data>
+  <data name="ToolPackageDetails" xml:space="preserve">
+    <value>Kanaloversigt</value>
+  </data>
+  <data name="ToolPreviousTickets" xml:space="preserve">
+    <value>Tidligere FASO'er</value>
+  </data>
+  <data name="ToolPriorityProductDetails" xml:space="preserve">
+    <value>Anbefalede produkter</value>
+  </data>
+  <data name="ToolSendFSecureEmail" xml:space="preserve">
+    <value>Gensend velkomst e-mail til YouSee Sikkerhedspakke</value>
+  </data>
+  <data name="ToolSmartGuidesAdmin_Forms" xml:space="preserve">
+    <value>Formularer</value>
+  </data>
+  <data name="ToolSmartGuidesAdmin_Tools" xml:space="preserve">
+    <value>Tools</value>
+  </data>
+  <data name="ToolSMS" xml:space="preserve">
+    <value>SMS – Bier</value>
+  </data>
+  <data name="ToolSpeedCalculatorDetails" xml:space="preserve">
+    <value>ToolSpeedCalculatorDetails</value>
+  </data>
+  <data name="ToolStbPowerSettings_No_SikTv" xml:space="preserve">
+    <value>Vi Kan ikke finde TV-SIK på kunden - Værktøjet fungere kun på TV-SIK</value>
+  </data>
+  <data name="TOOlTDCHomeboxReset_Reboot_Connected" xml:space="preserve">
+    <value>Forbundet</value>
+  </data>
+  <data name="TOOlTDCHomeboxReset_Reboot_Disconnected" xml:space="preserve">
+    <value>Afbrudt</value>
+  </data>
+  <data name="ToolTimeline" xml:space="preserve">
+    <value>Tidslinje</value>
+  </data>
+  <data name="ToolVoiceMailAdmin_Genric_ErrorMessage" xml:space="preserve">
+    <value>Værktøjet understøtter ikke det indtastede LID. Vi kan ikke registrere noget telefonnummer på abonnementet. Tjek kundens abonnement.</value>
+  </data>
+  <data name="ToolVoipBarring_Genric_ErrorMessage" xml:space="preserve">
+    <value>Værktøjet understøtter ikke det indtastede LID. Vi kan ikke registrere noget telefonnummer på abonnementet. Tjek kundens abonnement.</value>
+  </data>
+  <data name="Tool_not_found" xml:space="preserve">
+    <value>Webpart ikke fundet</value>
+  </data>
+  <data name="Tool_pink_graph_webpart" xml:space="preserve">
+    <value>Ping graf</value>
+  </data>
+  <data name="TotalAmount" xml:space="preserve">
+    <value>Beløb</value>
+  </data>
+  <data name="TotalNumberOfItems" xml:space="preserve">
+    <value>Antal</value>
+  </data>
+  <data name="total_mailboxes" xml:space="preserve">
+    <value>mulige i mailboksen</value>
+  </data>
+  <data name="total_mails" xml:space="preserve">
+    <value>mulige mails i webmail indbakken</value>
+  </data>
+  <data name="Total_meter" xml:space="preserve">
+    <value>I alt meter</value>
+  </data>
+  <data name="To_port" xml:space="preserve">
+    <value>Til port</value>
+  </data>
+  <data name="To_position" xml:space="preserve">
+    <value>Til position</value>
+  </data>
+  <data name="To_track" xml:space="preserve">
+    <value>Til nummer</value>
+  </data>
+  <data name="Traffic_summary_for" xml:space="preserve">
+    <value>Trafikoversigt for</value>
+  </data>
+  <data name="TryAgain" xml:space="preserve">
+    <value>Ingen svar, prøv igen</value>
+  </data>
+  <data name="TurnOff" xml:space="preserve">
+    <value>Slå fra</value>
+  </data>
+  <data name="TurnOn" xml:space="preserve">
+    <value>Slå til</value>
+  </data>
+  <data name="TvConsumptionLimit" xml:space="preserve">
+    <value>Nuværende forbrugsmaks:</value>
+  </data>
+  <data name="TvPlus" xml:space="preserve">
+    <value>TvPlus</value>
+  </data>
+  <data name="Tv_Admin" xml:space="preserve">
+    <value>TV Administration</value>
+  </data>
+  <data name="tv_admin_tool_btn" xml:space="preserve">
+    <value>Abn Tv signal</value>
+  </data>
+  <data name="Tv_signal_is_closed" xml:space="preserve">
+    <value>Tv signalet er lukket</value>
+  </data>
+  <data name="Tv_signal_is_open" xml:space="preserve">
+    <value>Tv signalet er åbent</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Typical" xml:space="preserve">
+    <value>Typisk</value>
+  </data>
+  <data name="Unable_To_Save_Contact_Information" xml:space="preserve">
+    <value>Kunne ikke gemme kontaktoplysningerne</value>
+  </data>
+  <data name="Unable_To_Update_Products" xml:space="preserve">
+    <value>Kan ikke opdatere Produkter</value>
+  </data>
+  <data name="Unexpected_error_adding_subuser_to_parent_user" xml:space="preserve">
+    <value>Kunne ikke tilføje underbruger</value>
+  </data>
+  <data name="Unfortified" xml:space="preserve">
+    <value>Ubefæstet(Alt andet end asfalt &amp; fliser)</value>
+  </data>
+  <data name="Unit" xml:space="preserve">
+    <value>Udstyr</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Opdatering</value>
+  </data>
+  <data name="updated" xml:space="preserve">
+    <value>opdateret</value>
+  </data>
+  <data name="UpdationPermissions_ServiceFail" xml:space="preserve">
+    <value>Det er ikke muligt at opdatere oplysningerne</value>
+  </data>
+  <data name="used" xml:space="preserve">
+    <value>brugt</value>
+  </data>
+  <data name="UsefulLinks" xml:space="preserve">
+    <value>Nyttige links</value>
+  </data>
+  <data name="UserId" xml:space="preserve">
+    <value>Bruger ID</value>
+  </data>
+  <data name="UserInformation" xml:space="preserve">
+    <value>Brugeroplysninger</value>
+  </data>
+  <data name="UserInitials" xml:space="preserve">
+    <value>Bruger initialer</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Brugernavn</value>
+  </data>
+  <data name="UserType" xml:space="preserve">
+    <value>Brugertype</value>
+  </data>
+  <data name="Use_only_in_forbindlese" xml:space="preserve">
+    <value>BEMÆRK: Må kun anvendes i forbindelse med: OMGRAVNING PÅ PRIVAT GRUND EFTER KABELFEJL</value>
+  </data>
+  <data name="USE_ON_CABLE_FAULT" xml:space="preserve">
+    <value>BEMÆRK: Må kun anvendes ved nedgravning af: KVEJL PÅ PRIVAT GRUND - MÅ IKKE ANVENDES VED KABELFEJL!</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Værdi</value>
+  </data>
+  <data name="Viewed_as_new_no_dept_Tech" xml:space="preserve">
+    <value>Set som ny-uden afd. + tek.</value>
+  </data>
+  <data name="View_customer" xml:space="preserve">
+    <value>Vis kunde</value>
+  </data>
+  <data name="VIP_customer" xml:space="preserve">
+    <value>VIP kunde</value>
+  </data>
+  <data name="Voicemail" xml:space="preserve">
+    <value>Voicemail</value>
+  </data>
+  <data name="Voicemail_messages" xml:space="preserve">
+    <value>Voicemail beskeder</value>
+  </data>
+  <data name="Voip_Barring_Barringcode" xml:space="preserve">
+    <value>Spærringskode</value>
+  </data>
+  <data name="Voip_Barring_Section1_Title" xml:space="preserve">
+    <value>Uden kode</value>
+  </data>
+  <data name="Voip_Barring_Section2_Title" xml:space="preserve">
+    <value>Med kode</value>
+  </data>
+  <data name="Voip_Barring_Tool_Title" xml:space="preserve">
+    <value>Spærringer (BBT)</value>
+  </data>
+  <data name="Voip_Barring_Type_AbroadBlock" xml:space="preserve">
+    <value>Udland spærring</value>
+  </data>
+  <data name="Voip_Barring_Type_AbroadBlockWithMobile" xml:space="preserve">
+    <value>Udland spærring  med mobile- og servicenumre</value>
+  </data>
+  <data name="Voip_Barring_Type_AdultForegin" xml:space="preserve">
+    <value>Voksen spærring udland</value>
+  </data>
+  <data name="Voip_Barring_Type_MeetingPoint" xml:space="preserve">
+    <value>Træfpunkt spærring</value>
+  </data>
+  <data name="Voip_Barring_Type_MeetingPoint901" xml:space="preserve">
+    <value>Træfpunkt og 901 spærring</value>
+  </data>
+  <data name="Voip_Barring_Type_None" xml:space="preserve">
+    <value>Ingen spærring</value>
+  </data>
+  <data name="Voip_Barring_Type_TotalBlock" xml:space="preserve">
+    <value>Total spærringer</value>
+  </data>
+  <data name="VVMActivationStatus" xml:space="preserve">
+    <value>Visual voicemail status</value>
+  </data>
+  <data name="VVMProtocol" xml:space="preserve">
+    <value>Visual voicemail aktiveret protokol</value>
+  </data>
+  <data name="WasSuccess" xml:space="preserve">
+    <value>var succesfulde.</value>
+  </data>
+  <data name="Weak" xml:space="preserve">
+    <value>Svag</value>
+  </data>
+  <data name="Webmail" xml:space="preserve">
+    <value>Webmail</value>
+  </data>
+  <data name="webmail_associated_with_usernames" xml:space="preserve">
+    <value>Webmail tilknytning til brugernavne</value>
+  </data>
+  <data name="WebpartName" xml:space="preserve">
+    <value>Værktøj</value>
+  </data>
+  <data name="WebTv" xml:space="preserve">
+    <value>WebTv</value>
+  </data>
+  <data name="Web_part" xml:space="preserve">
+    <value>web del</value>
+  </data>
+  <data name="Week" xml:space="preserve">
+    <value>Uge</value>
+  </data>
+  <data name="We_cant_find_users_on_this_LID_please_use_search_field" xml:space="preserve">
+    <value>Vi kan ikke hente brugere for dette LID - brug søgefelt</value>
+  </data>
+  <data name="What_type_of_equipment_do_you_want_to_use" xml:space="preserve">
+    <value>Hvilket central udstyr vil du gerne benytte ?</value>
+  </data>
+  <data name="Who_bar_called" xml:space="preserve">
+    <value>Hvem har ringet</value>
+  </data>
+  <data name="Wins_server" xml:space="preserve">
+    <value>WINS server</value>
+  </data>
+  <data name="Wireless_network_capacity" xml:space="preserve">
+    <value>Trådløs netværkskapacitet</value>
+  </data>
+  <data name="Wireless_network_state" xml:space="preserve">
+    <value>Trådløs netværkstilstand</value>
+  </data>
+  <data name="With" xml:space="preserve">
+    <value>med</value>
+  </data>
+  <data name="workPhone" xml:space="preserve">
+    <value>Arbejdstlf</value>
+  </data>
+  <data name="Worksheet" xml:space="preserve">
+    <value>Arbejdsseddel</value>
+  </data>
+  <data name="Work_Type" xml:space="preserve">
+    <value>Arbejdstype</value>
+  </data>
+  <data name="WriteMessage" xml:space="preserve">
+    <value>Skriv besked</value>
+  </data>
+  <data name="Write_comment" xml:space="preserve">
+    <value>skriv kommentar</value>
+  </data>
+  <data name="xDSL" xml:space="preserve">
+    <value>xDSL</value>
+  </data>
+  <data name="xDSL_details" xml:space="preserve">
+    <value>Detaljer xDSL</value>
+  </data>
+  <data name="yes" xml:space="preserve">
+    <value>ja</value>
+  </data>
+  <data name="Yes_Value" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="Zipcod" xml:space="preserve">
+    <value>Postnr.</value>
+  </data>
+  <data name="ZipCode" xml:space="preserve">
+    <value>Postnummer</value>
+  </data>
+</root>

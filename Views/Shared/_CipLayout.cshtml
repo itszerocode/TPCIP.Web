@@ -1,0 +1,228 @@
+﻿@model CipViewModel
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@Translations.PortalTitle_Cip</title>
+</head>
+<body>
+    @foreach (var cssfile in Model.cssFiles)
+    {
+        <link rel="stylesheet" href="@cssfile" />
+    }
+
+    @foreach (var scriptfile in Model.scriptFiles)
+    {
+        <script class="TpCipJS" src="@scriptfile"></script>
+    }
+    <div class="navbar navbar-inverse navbar-fixed-top" id="topNavBar1" role="navigation" style="z-index: 1049 !important; background-color:#636969">
+        <div class="container navbar-content-holder">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-nav-global">
+                    @foreach (var menu in Model.TopNavBarMenus)
+                    {
+                        <li>
+                            <a href="@menu.url" target='_blank'>
+                                @menu.title
+                            </a>
+                        </li>
+                    }
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="cip_content_container">
+        <nav class="navbar navbar-default navbar-fixed-top" id="topNavBar2" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">@Translations.Toggle_navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <input type="button" style="margin-top:7px;height:36px" id="LogoutBtn" class="row btn btn-primary logoutBatchUser" onclick="TdcLogin.LogOutBatchUserAndClearSession(this)" title="Log ud" value="Log ud" />
+                <ul class="nav navbar-nav" id="portalmenubar">
+                    <li>
+                        <img src="~/images/icons/tdc_logo.png" alt="TDC logo" class="margin-right-10" id="TDCLogo"
+                             style="margin-top: 5px;" height="40" />
+                    </li>
+
+                    @*<%--START MyTPCHANGES--%>*@
+                    @*<li id="MyTpDropdown" class="MyTPdropdown" runat="server">
+                            <a href="#">Guideområder &#9662;</a>
+                            <ul class="MyTPdropdown-menu">
+                                <asp:Repeater ID="portalSectionsRepeaterdropdown" runat="server">
+                                    <ItemTemplate>
+                                        <li class=" MyTPdropdown-LiItem <%# Eval(" SectionName") %>
+                                            " style="float: left">
+                                            <a href="<%# Eval(" Url") ?? "javascript:void(0);" %>
+                                                " <%# (string.IsNullOrEmpty((string)Eval("Url"))) ? "" : "target='_blank'" %>
+                                                data-portalsectionname="<%# Eval("SectionName")  %>"
+                                                onclick="TdcMain.portalSectionMenuItemClicked(this); return false;">
+                                                <%# Eval("Title") %>
+                                            </a>
+                                        </li>
+                                    </ItemTemplate>
+                                </asp:Repeater>
+                            </ul>
+                        </li>*@
+                    @*<%--END MyTPCHANGES--%>*@
+                    @foreach (var portalsection in Model.PortalSections)
+                    {
+                        <li class="@portalsection.SectionName">
+                            <a href="@portalsection.Url" target='_blank' data-portalsectionname="@portalsection.SectionName" style="outline:none" class="cursor-pointer"
+                               onclick="TdcMain.portalSectionMenuItemClicked(this); return false;">
+                                @portalsection.Title
+                            </a>
+                        </li>
+                    }
+                </ul>
+                <a id="CSAM_placeholder" class="btn goToCsamLink fl noBorder pd-t-16" href="javascript:void(0);" onclick="TdcMain.goToCsamClicked(this)">CSAM</a>
+                <div class="col-lg-3 col-md-3 col-sm-3 input-group navbar-search" id="cip_menu" style="padding-left:10px">
+                    <div class="searchBoxHolder" style="min-width:257px !important" data-user="<%= (new System.Security.Principal.WindowsPrincipal(System.Security.Principal.WindowsIdentity.GetCurrent())).Identity.Name %>">
+                        <span class="loadingPlaceholder search-input-icon"></span>
+                        <input id="mainSearchBox" placeholder="Søgning guider og artikler" type="text" class="form-control" autocomplete="off" />
+                    </div>
+                </div>
+                <img id="GoToDashboardIcon_placeholder" class="btn goToDashboardLink" height="50" src="images/icons/DashboardIcon.png" style="display:none" onclick="TdcMain.goToDasboardClicked(this); return false ;" />
+                <a id="GoToDashboardLink_placeholder" class="btn goToDashboardLink" href="javascript:void(0);" onclick="TdcMain.goToDasboardClicked(this); return false ;">@Translations.Dashboard</a>
+                <a id="FeedBack_placeholder" class="btn Feedback" href="javascript:void(0);" onclick="TDCPopUpFeedbackTab.goToFeedbackClicked(this)">@Translations.FeedbackTab_Order_Feedback </a>
+
+            </div>
+        </nav>
+
+        <div class="container content-holder" id="cip_content" data-userName='<%= UserName %>' data-userId='<%= UserId %>' data-autonotelist='<%=JsonHelper.Serialize(NoteDetailsDictionary.NoteDetailDictionary) %>'
+             data-retailUserId='<%= RetailUserId %>' data-retailUserName='<%= RetailUserName %>' data-retailStoreName='<%= RetailStoreName %>' data-departmentname='<%= DepartmentName %>'>
+
+            @RenderBody()
+        </div>
+
+    </div>
+
+    <div id="messageAlertsBox"></div>
+
+    <div id="cip_scriptZone">
+        @*<uc1:PopupChooseCustomerType runat="server" id="PopupChooseCustomerType" />
+            <uc1:PopupOpenedGuidesWillBeParked runat="server" id="PopupOpenedGuidesWillBeParked" />
+            <uc1:PopupRefundFilm runat="server" id="PopupRefundFilm" />
+            <uc1:CancelSubscriptionConfirm runat="server" id="CancelSubscriptionConfirm" />
+            <uc1:PopupMobileNumbers runat="server" id="PopupMobileNumbers" />
+            <uc1:PopUpResetButton runat="server" id="PopUpResetButton" />
+            <uc1:PopUpAfmeldClick runat="server" id="PopUpAfmeldClick" />
+            <uc1:PopUpDeliveryUpdateIcon runat="server" id="PopUpDeliveryUpdateIcon" />
+            <uc1:PopupPreviousStepsControl runat="server" id="PopupPreviousStepsControl" />
+            <uc1:RebootConfirm runat="server" id="PopupRebootTv" />
+            <%--<uc1:SetTestSpeedConfirm runat="server" id="popupSetTestSpeed" />--%>
+            <%--bug::1271--%>
+            <uc1:PopupMsisdnMobileNumbers runat="server" id="PopupMsisdnMobileNumbers" />
+            <uc1:PopupEndGuide runat="server" id="PopupEndGuide" />
+            <uc1:PopupEmail runat="server" id="PopupEmail" />
+            <uc1:PopupNetworkAnalyzer runat="server" id="PopupNetworkAnalyzer" />
+            <uc1:PopUpFullViewGraph runat="server" id="PopUpFullViewGraph" />
+            <uc1:ShowMessagePopUp runat="server" id="ShowMessagePopUp" />
+            <uc1:PopupCreateStikCable runat="server" id="PopupCreateStikCable" />
+            <uc1:PopupBatchUserLogin runat="server" id="PopupBatchUserLogin" />*@
+
+    </div>
+
+    <div id="templates" style="display: none">
+        <b id="closeTabBtnTemplate" class="btn btn-default btn-xs sidePadding-10 btnClose" data-original-title="<%= TPCIP.CommonTranslations.Translations.Close_tab_tooltip %>">
+            <span class="ion-close"></span>@Translations.Cancel
+        </b>
+
+        <div id="loadingTemplate" class="panel panel-default webpart loading">
+            <div class="panel-heading">
+                <div class="pull-right">
+                    <!--Ajinkya Korade:: Service Dashboard :: Changed default loading image from loading.gif to loading_green.gif  -->
+                    @*<%--<img src="/_Layouts/Images/TPCIP.Web/GAASelector/loading_green.gif" alt="loading" />--%>*@
+                    <div class="web-part-loader">
+                        <div class="line-scale">
+                            <div class="loader-green-theme"></div>
+                            <div class="loader-green-theme"></div>
+                            <div class="loader-green-theme"></div>
+                            <div class="loader-green-theme"></div>
+                            <div class="loader-green-theme"></div>
+                        </div>
+                    </div>
+                </div>
+                <h4 class="panel-title" data-bind="text: toolname"></h4>
+            </div>
+        </div>
+
+        <div id="searchLoadingTemplate" class="toolOverlay" style="height: 100%; width: 10%;">
+            <div class="web-part-loader">
+                <div class="line-scale" style="margin-left: 9px; padding-top: 9px;">
+                    <div class="loader-green-theme"></div>
+                    <div class="loader-green-theme"></div>
+                    <div class="loader-green-theme"></div>
+                    <div class="loader-green-theme"></div>
+                    <div class="loader-green-theme"></div>
+                </div>
+            </div>
+        </div>
+
+        <small id="doActionOverlayTemplate" class="toolOverlay" style="height: 100%; width: 10%;">
+            <div class="web-part-loader">
+                <div class="line-scale" style="margin-left: 9px; padding-top: 9px;">
+                    <div class="loader-green-theme"></div>
+                    <div class="loader-green-theme"></div>
+                    <div class="loader-green-theme"></div>
+                    <div class="loader-green-theme"></div>
+                    <div class="loader-green-theme"></div>
+                </div>
+            </div>
+        </small>
+
+        <div id="loadingOverlayTemplate" class="toolOverlay">
+            <div style="position: absolute; height: 100%; width: 100%; margin: 1px 1px 1px 1px; background-color: white; -ms-opacity: 0.8; opacity: 0.8; -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=50)'; filter: alpha(opacity=80); z-index: -1"></div>
+
+            <div class="panel-default webpart loading" style="height: 100%; text-align: center; background: transparent">
+                @*<%--<img src="/_Layouts/Images/TPCIP.Web/GAASelector/loading_green.gif" alt="loading" style="position: absolute; top: 50%; right: 50%; height: 2em; margin-top: -1em" />--%>*@
+                <div class="overlay-loader">
+                    <div class="line-scale">
+                        <div class="loader-green-theme"></div>
+                        <div class="loader-green-theme"></div>
+                        <div class="loader-green-theme"></div>
+                        <div class="loader-green-theme"></div>
+                        <div class="loader-green-theme"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="errorTemplate" class="panel panel-default webpart">
+            <div class="panel-heading">
+                <div class="pull-right">
+                    <b class="btn btn-default btn-xs sidePadding-10 btnRetry"><span class="" style="font-size: 7px;"></span>@Translations.Retry</b>
+                </div>
+                <h4 class="panel-title" data-bind="text: toolname"></h4>
+            </div>
+            <div class="panel-body panel-content text-error text-center">
+                <p data-bind="text: errortitle"></p>
+            </div>
+        </div>
+
+
+        <div id="errorOverlayTemplate" class="toolOverlay">
+            <div style="position: absolute; height: 100%; width: 100%; margin: 1px 1px 1px 1px; background-color: white; -ms-opacity: 0.8; opacity: 0.8; -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=50)'; filter: alpha(opacity=80); z-index: -1"></div>
+            <div class="panel-default webpart" style="height: 100%;">
+                <div style="margin-right: 5px; margin-top: 5px">
+                    <div class="pull-right">
+                        <b class="btn btn-default btn-xs sidePadding-10 btnRetry"><span class="" style="font-size: 7px;"></span>@Translations.Retry</b>
+                        &nbsp;
+                        <b class="btn btn-default btn-xs sidePadding-10 btnClose" onclick="$(this).closest('.toolOverlay').remove();return false;"><span class="ion-close"></span>@Translations.Cancel</b>
+                    </div>
+                    <h4 class="panel-title" data-bind="text: toolname"></h4>
+                </div>
+                <div class="text-error" style="height: 100%; width: 100%; text-align: center; background: transparent">
+                    <span data-bind="text: errortitle" style="position: absolute; top: 50%; height: 2em; margin-top: -1em"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
